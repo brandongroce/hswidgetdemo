@@ -1,0 +1,128 @@
+<div class="thewidget">
+  <md-tabs md-dynamic-height md-border-bottom md-selected="selectedIndex">
+    <md-tab label="Business Info" ng-disabled="dnq">
+      <div class="md-padding">
+        <div>
+          <h3 class="md-title">Let's get started</h3>
+          <form id="widgetForm" name="widgetForm" ng-model="business">
+            <div layout="row">
+              <md-autocomplete flex required
+                               md-input-id="industry"
+                               md-input-name="autocompleteField"
+                               md-no-cache="false"
+                               md-select-on-match="true"
+                               md-select-on-focus="true"
+                               md-autoselect="true"
+                               md-selected-item="selectedIndustry"
+                               md-search-text="searchText"
+                               placeholder="selectedIndustry"
+                               md-items="item in querySearch(searchText)"
+                               md-item-text="item.mtid"
+                               md-floating-label="Industry"
+                               ng-blur="checkLobRequirements()">
+                <md-item-template>
+                  <span class="item-title" md-highlight-text="searchText" md-highlight-flags="i">{{item.mtid}}</span>
+                </md-item-template>
+                <md-not-found>
+                  No matching industries found.
+                </md-not-found>
+                <div ng-messages="widgetForm.autocompleteField.$error" ng-if="widgetForm.autocompleteField.$touched">
+                  <div ng-message="required">You <b>must</b> select an industry from the list.</div>
+                </div>
+              </md-autocomplete>
+              <md-input-container>
+                <label>Postal Code</label>
+                <input type="text"
+                       id="zipcode"
+                       name="zipcode"
+                       ng-model="business.zipcode"
+                       ng-blur="lookupZip(business.zipcode)" required
+                />
+                <div ng-messages="widgetForm.zipcode.$error" ng-if="widgetForm.zipcode.$touched">
+                  <div ng-message="required">Please enter your postal code.</div>
+                </div>
+              </md-input-container>
+            </div>
+            <div layout="row" class="tab1row2" style="display:none">
+              <md-input-container flex ng-show="showLocation">
+                <label>Business Location</label>
+                <md-select ng-model="location">
+                  <md-option value="KSBUS">Kiosk</md-option>
+                  <md-option value="OWCND">Commercial Condo I Own</md-option>
+                  <md-option value="LSCND">Commercial Condo I Lease</md-option>
+                  <md-option value="OWBLD">Building I Own</md-option>
+                  <md-option value="LSBLD">Building I Lease</md-option>
+                  <md-option value="HMBUS">My Home</md-option>
+                </md-select>
+                <span class="email-input-message" style="position:relative;top:-1px">Type of building your business located in.</span>
+              </md-input-container>
+              <md-input-container flex>
+                <label>Email</label>
+                <input type="email" name="email" ng-model="email" style="width:100%" />
+                <div class="email-input-message">If you have an existing account or policy, please enter the email address used to create your account.</div>
+                <div ng-messages="widgetForm.email.$error" ng-if="widgetForm.email.$touched">
+                  <div ng-message="email">Please enter a valid email.</div>
+                  <div ng-message="required">Email is a required field.</div>
+                </div>
+              </md-input-container>
+              <md-checkbox ng-model="hasEmployees"
+                           aria-label="Employees"
+                           class="md-align-top-left"
+                           ng-show="showEmployees">
+                <span class="md-input-has-value checkbox-label">Do you have employees?</span><br />
+                <span class="input-message">Excluding owners and partners</span>
+              </md-checkbox>
+            </div>
+          </form>
+        </div>
+      </div>
+    </md-tab>
+    <md-tab label="Products" class="productTab">
+      <md-content class="md-padding">
+        <h3 class="md-title product-message">{{productMessage}}</h3>
+        <h5 class="md-title md-subtitle animate-if" ng-class="{'vis-hidden': !additionalMessage}">{{additionalMessage}} requires selection of <strong>two or more products</strong></h5>
+        <div role="group" style="text-align:center">
+          <div class="btn-group btn-group-justified" role="group">
+            <div layout="row" ng-repeat="obj in lobData.lobLoop">
+            <md-card ng-repeat="(lob, enabled) in obj"
+                     style="width:330px"
+                     class="{{lob}}"
+                     ng-style="{true: {background: 'rgba(20,133,204,0.6)'}, false: {background:'#333'}}[enabled]"
+                     ng-class="enabled ? 'card-enabled': 'card-disabled'">
+              <div class="checkmark animate-if" ng-if="selectedLobs[lob] && bundleNotMet !== true"><md-icon md-svg-src="images/check.svg"></md-icon></div>
+              <div class="checkmark animate-if" style="background-color:#FFCC00" ng-if="selectedLobs[lob] && bundleNotMet === true"><span class="exclaim">!</span></div>
+              <md-card-title>
+                <md-card-title-text>
+                  <span class="md-headline">{{lobDetails[lob].name}}</span>
+                  <span class="md-subhead">{{lob}}</span>
+                </md-card-title-text>
+              </md-card-title>
+              <md-icon md-svg-src="images/{{lobDetails[lob].image}}.svg" style="color:#fff;width:170px;height:145px"></md-icon>
+              <md-card-content>
+                <p>{{lobDetails[lob].desc}}</p>
+              </md-card-content>
+              <md-card-actions layout="row" layout-align="end center" class="card-controls">
+                <md-button ng-click="selectLob(lob, $event)" ng-if="enabled && !selectedLobs.hasOwnProperty(lob)">Select</md-button>
+                <md-button ng-click="selectLob(lob, $event)" ng-if="enabled && selectedLobs.hasOwnProperty(lob)">Remove</md-button>
+              </md-card-actions>
+            </md-card>
+           </div>
+          </div>
+        </div>
+      </md-content>
+    </md-tab>
+  </md-tabs>
+  <div layout="row" class="tab-controls">
+      <div ng-if="showControls" flex>
+        <md-button class="md-raised md-primary" ng-click="prevTab()" ng-if="selectedIndex > 0">
+          Back
+        </md-button>
+        <span ng-if="loading" style="float:right;margin-right:35px"><md-progress-circular "md-mode="indeterminate"></md-progress-circular></span>
+        <md-button class="md-raised md-primary" ng-click="nextTab()" style="margin-right:20px;" ng-if="selectedIndex < 3 && !loading">
+          Next
+      </md-button>
+      </div>
+  </div>
+</div>
+
+

@@ -1,0 +1,206 @@
+{
+  "schemaVersion": "1.0.0",
+  "machineName": "geico_assurestart_com",
+  "sitename": "GEICO",
+  "subdomain": "geico-test.intandem-int.com",
+  "scheme": "https",
+  "marketingSource": "10000145",
+  "valid": true,
+  "weight": 1,
+  "isDefault": false,
+  "siteGrant": true,
+  "crossSell":false,
+  "aliases": [
+    {
+      "alias": "geico-test.intandem-int.com",
+      "redirect": false
+    },
+    {
+      "alias": "geico-resume-test.intandem-int.com",
+      "redirect": false
+    }
+  ],
+  "uiconfig": {
+    "quote_form": {
+      "home_toggle": true,
+      "plugin_layout_horizontal": true,
+      "plugin_secured_access": true,
+      "original_design": false
+    },
+    "hero_videos": [
+      "139,140",
+      "147,148"
+    ],
+    "site_favicon": 347,
+    "site_logo": 345
+  },
+  "lobs": [
+    {
+      "type": "BOP",
+      "settings": {
+        "enabled": true,
+        "rules": [
+          {
+            "function": "denyStates",
+            "op": "!=",
+            "value": [
+              "WA",
+              "CA",
+              "TX",
+              "NY",
+              "OR",
+              "FL"
+            ]
+          },
+          {
+            "function": "denyIndustries",
+            "op": "=",
+            "value": [
+              "AGRICULTURAL_CONSULTING_SERVICES",
+              "AMUSEMENT_AND_THEME_PARKS"
+            ]
+          },
+          {
+            "function": "denyIndustries",
+            "op": "=",
+            "value": [
+              "ANIMAL_SHELTERS"
+            ],
+            "where": "states",
+            "not": [
+              "WA"
+            ]
+          },
+          {
+            "function": "denyIndustries",
+            "op": "!=",
+            "value": [
+              "APPLIANCE_STORE",
+              "APPLIANCES_INSTALLATION_SERVICE_OR_REPAIR"
+            ],
+            "where": "states",
+            "equal": [
+              "CA"
+            ]
+          }
+        ],
+        "bundlingRules":[
+          {
+            "function": "requireBundlingLobs",
+            "value": [
+              [
+                "GL"
+              ]
+            ],
+            "where": "industries",
+            "equal": [
+              "BED_AND_MATTRESS_STORE"
+            ]
+          },
+          {
+            "function": "denyBundlingLobs",
+            "value": "all",
+            "where": "states",
+            "equal": [
+              "TX",
+              "NY",
+              "FL"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "GL",
+      "settings": {
+        "enabled": true,
+        "rules": [
+          {
+            "function": "denyStates",
+            "op": "=",
+            "value": [
+              "TX"
+            ]
+          },
+          {
+            "function": "denyIndustries",
+            "op": "=",
+            "value": [
+              "AGRICULTURAL_CONSULTING_SERVICES",
+              "AMUSEMENT_AND_THEME_PARKS"
+            ]
+          }
+        ],
+        "bundlingRules":[
+          {
+            "function": "denyBundlingLobs",
+            "value": "all",
+            "where": "states",
+            "equal": [
+              "TX",
+              "NY",
+              "FL"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "WC",
+      "settings": {
+        "enabled": true,
+        "rules": [
+          {
+            "function": "denyStates",
+            "op": "=",
+            "value": [
+              "FL"
+            ]
+          }
+        ],
+        "bundlingRules":[
+          {
+            "function": "requireBundlingLobs",
+            "value": [
+              ["BOP"],
+              ["GL"]
+            ],
+            "where": "states",
+            "not": [
+              "TX",
+              "NY",
+              "FL",
+              "AZ"
+            ]
+          },
+          {
+            "function": "denyBundlingLobs",
+            "value": "all",
+            "where": "states",
+            "equal": [
+              "TX",
+              "NY",
+              "FL",
+              "AZ"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "settings": {
+    "agentSupportPhone": "877-515-2185",
+    "brokerOfRecord": "145",
+    "businessPhone": "877-515-2191",
+    "contactPartnerId": "1850",
+    "defaultMembershipLevel": "AutoDiscount",
+    "marketingSubsource": 1452,
+    "marketingSubsourceDesc": "Consumer Web",
+    "partnerId": 1852,
+    "processRecommendations": true,
+    "producerDesc": "Generic Web",
+    "producerId": 5555,
+    "promotionCode": 14520,
+    "promotionDesc": "Consumer Web"
+  }
+}

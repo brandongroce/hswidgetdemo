@@ -1,0 +1,1299 @@
+{
+  "ACCOUNTANT_CPA": {
+    "mtid": "Accountant (CPA)",
+    "aliases": ["Certified Public Accountant", "Accountant (CPA)"]
+  },
+  "ACCOUNTING_SERVICES_OFFICE": {
+    "mtid": "Accounting Services Office",
+    "aliases": ["Tax Preparation Services", "Bookkeeping", "Accounting Services Office"]
+  },
+  "ACUPUNCTURIST_OFFICE": {
+    "mtid": "Acupuncturist Office",
+    "aliases": ["Acupuncture", "Acupuncturist Office"]
+  },
+  "ADOPTION_SERVICES": {
+    "mtid": "Adoption Services",
+    "aliases": ["Adoption agencies", "Adoption centers", "Adoption Services"]
+  },
+  "AERIAL_ADVERTISING": {
+    "mtid": "Aerial Advertising",
+    "aliases": ["Outdoor advertising", "Aerial Advertising"]
+  },
+  "AGRICULTURAL_CONSULTING_SERVICES": {
+    "mtid": "Agricultural Consulting Services",
+    "aliases": ["Agricultural consultants", "Agriculture consulting", "Agriculture consultant", "Consultant services", "Agricultural Consulting Services"]
+  },
+  "AIRPORT_OPERATIONS": {
+    "mtid": "Airport Operations",
+    "aliases": ["Airport terminal services", "Airport Operations"]
+  },
+  "ALLERGIST_OFFICE": {
+    "mtid": "Allergist Office",
+    "aliases": ["allergy", "Allergist Office"]
+  },
+  "ALUMINUM_REFINERY": {
+    "mtid": "Aluminum Refinery",
+    "aliases": ["Aluminum plant construction", "Metal manufacturing, aluminum", "Aluminum Refinery"]
+  },
+  "AMBULANCE_SERVICES": {
+    "mtid": "Ambulance Services",
+    "aliases": ["Aid car services", "Ambulance Services"]
+  },
+  "AMUSEMENT_AND_THEME_PARKS": {
+    "mtid": "Amusement and Theme Parks",
+    "aliases": ["Amusement parks", "Theme parks", "Water parks", "Amusement and Theme Parks"]
+  },
+  "ANIMAL_BREEDING": {
+    "mtid": "Animal Breeding",
+    "aliases": ["breeder", "Animal Breeding"]
+  },
+  "ANIMAL_PET_GROOMING": {
+    "mtid": "Animal Pet Grooming",
+    "aliases": ["Dog Grooming", "Animal Pet Grooming"]
+  },
+  "ANIMAL_SHELTERS": {
+    "mtid": "Animal Shelters",
+    "aliases": ["Animal adoption services", "Animal rescue, non-veterinary", "Animal Shelters"]
+  },
+  "ANSWERING_SERVICES": {
+    "mtid": "Answering Services",
+    "aliases": ["Telephone services", "Message services", "Voice mailbox services", "Answering Services"]
+  },
+  "ANTIQUE_STORE": {
+    "mtid": "Antique Store",
+    "aliases": ["vintage", "Antique Store"]
+  },
+  "APARTMENT_AND_HOME_RENTALS": {
+    "mtid": "Apartment and Home Rentals",
+    "aliases": ["Apartment rental services", "Home rental services", "Apartment and Home Rentals"]
+  },
+  "APPLIANCE_STORE": {
+    "mtid": "Appliance Store",
+    "aliases": ["Appliance retail", "Appliance sales", "Manufacturers representative", "Appliance Store"]
+  },
+  "APPLIANCES_INSTALLATION_SERVICE_OR_REPAIR": {
+    "mtid": "Appliances Installation, Service, or Repair",
+    "aliases": ["Appliance repair and maintenance services", "Appliances Installation, Service, or Repair"]
+  },
+  "ARMY_AND_NAVY_STORE": {
+    "mtid": "Army and Navy Store",
+    "aliases": ["military", "surplus", "Army and Navy Store"]
+  },
+  "ART_GALLERY": {
+    "mtid": "Art Gallery",
+    "aliases": ["Art Studio", "Art Gallery"]
+  },
+  "ASPHALT_MANUFACTURING": {
+    "mtid": "Asphalt Manufacturing",
+    "aliases": ["Asphalt plants", "Asphalt Manufacturing"]
+  },
+  "AUDIO_VIDEO_EQUIPMENT_INSTALLATION_AND_REPAIR": {
+    "mtid": "Audio Video Equipment Installation and Repair",
+    "aliases": ["AV", "A/V", "navigation", "sound", "multi-media", "multimedia", "HD", "Car Stereo Installation and Repair", "Home Theater Installation", "Audio Video Equipment Installation and Repair"]
+  },
+  "AUTO_BODY_AND_PAINT_SHOP": {
+    "mtid": "Auto Body and Paint Shop",
+    "aliases": ["Auto body shop", "Automobile paint shop", "Sales", "Retail", "Auto Body and Paint Shop"]
+  },
+  "AUTO_EMISSIONS_TESTING": {
+    "mtid": "Auto Emissions Testing",
+    "aliases": ["Car emissions testing", "Motor vehicle emissions testing", "Auto Emissions Testing"]
+  },
+  "AUTO_EXHAUST_AND_MUFFLER_REPAIR": {
+    "mtid": "Auto Exhaust and Muffler Repair",
+    "aliases": ["Car emissions testing", "Motor vehicle emissions testing", "Auto Exhaust and Muffler Repair"]
+  },
+  "AUTO_GLASS_SHOP": {
+    "mtid": "Auto Glass Shop",
+    "aliases": ["Windshield Repair", "Auto Glass Shop"]
+  },
+  "AUTO_SALVAGE_YARDS": {
+    "mtid": "Auto Salvage Yards",
+    "aliases": ["Junk yard, automobiles", "Car salvage yard", "Auto Salvage Yards"]
+  },
+  "AUTO_SPEED_SHOP": {
+    "mtid": "Auto Speed Shop",
+    "aliases": ["Automobile speed shop", "Car speed shop", "Motor vehicle speed shop", "Auto Speed Shop"]
+  },
+  "AUTO_TRANSMISSION_REPAIR": {
+    "mtid": "Auto Transmission Repair",
+    "aliases": ["Automobile transmission repair", "Motor vehicle transmission repair", "Auto Transmission Repair"]
+  },
+  "AUTO_WINDOW_TINTING": {
+    "mtid": "Auto Window Tinting",
+    "aliases": ["Automobile window tinting, automobiles", "Car window tinting", "Motor vehicle window tinting", "Auto Window Tinting"]
+  },
+  "AUTOMATIC_TELLER_MACHINES_ATM_INSTALLATION": {
+    "mtid": "Automatic Teller Machines (ATM) Installation",
+    "aliases": ["ATM installation", "Automatic Teller Machines (ATM) Installation"]
+  },
+  "AUTOMOBILE_PARTS_AND_SUPPLIES_STORE__RETAIL": {
+    "mtid": "Automobile Parts and Supplies Store - Retail",
+    "aliases": ["Auto supply store", "Automotive parts and supply stores", "Car parts and supplies store", "Sales", "Retail", "Automobile Parts and Supplies Store - Retail"]
+  },
+  "AUTOMOTIVE_REPAIR_SHOP": {
+    "mtid": "Automotive Repair Shop",
+    "aliases": ["Automobile", "motor vehicle", "Car", "collision", "mechanic", "Body Shop", "Automotive Repair Shop"]
+  },
+  "BAGEL_SHOP": {
+    "mtid": "Bagel Shop",
+    "aliases": ["Bagelry", "Bagel Shop"]
+  },
+  "BAIL_BONDS_SERVICES": {
+    "mtid": "Bail Bonds Services",
+    "aliases": ["Bail bonds agency", "Bail Bonds Services"]
+  },
+  "BAKERY__WITH_BAKING_ON_PREMISES": {
+    "mtid": "Bakery - With Baking on Premises",
+    "aliases": ["Cake Maker", "Cupcake Shop", "Pastry Shop", "Dessert Shop", "Panaderia", "Bake Shop", "Pie Shop", "Bakery - With Baking on Premises"],
+    "products":["BOP"]
+  },
+  "BANK": {
+    "mtid": "Bank",
+    "aliases": ["Commerical banking", "National commercial banks", "Bank"]
+  },
+  "BARBER_SCHOOL": {
+    "mtid": "Barber School",
+    "aliases": ["Barber Colleges", "Barber and beauty colleges", "Barber School"]
+  },
+  "BARBER_SHOP": {
+    "mtid": "Barber Shop",
+    "aliases": ["Hair", "Barber Shop"]
+  },
+  "BARS_AND_TAVERNS": {
+    "mtid": "Bars and Taverns",
+    "aliases": ["pub", "lounge", "cocktail", "club", "Night Club", "Wine Bar", "Bars and Taverns"]
+  },
+  "BEAUTY_AND_HAIR_STYLING_SALON": {
+    "mtid": "Beauty and Hair Styling Salon",
+    "aliases": ["Beautician", "Hair Stylist", "Beauty and Hair Styling Salon"]
+  },
+  "BEAUTY_SCHOOL": {
+    "mtid": "Beauty School",
+    "aliases": ["Manicure and pedicure schools", "Beauty School"]
+  },
+  "BEAUTY_SUPPLY_STORE": {
+    "mtid": "Beauty Supply Store",
+    "aliases": ["Beauty supply sales", "Beauty supply retail", "Manufacturers representative", "Beauty Supply Store"]
+  },
+  "BED_AND_BATH_STORE": {
+    "mtid": "Bed and Bath Store",
+    "aliases": ["Bed and bath retail", "Bed and bath sales", "Manufacturers representative", "Bed and Bath Store"]
+  },
+  "BED_AND_MATTRESS_STORE": {
+    "mtid": "Bed and Mattress Store",
+    "aliases": ["Mattress stores (including waterbeds)", "Bed and mattress retail", "Bed and mattress sales", "Manufacturers representative", "Bed and Mattress Store"]
+  },
+  "BEDANDBREAKFAST_INNS": {
+    "mtid": "Bed-and-Breakfast Inns",
+    "aliases": ["Bed and Breakfast facilities", "Bed-and-Breakfast Inns"]
+  },
+  "BEER_WINE_AND_LIQUOR_STORES": {
+    "mtid": "Beer, Wine, and Liquor Stores",
+    "aliases": ["Alcohol retailers", "Alcohol sales", "Wine and spirits retailers", "Wine and spirits sales", "Wine and spirits stores | Manufacturers representative", "Beer, Wine, and Liquor Stores"]
+  },
+  "BEVERAGE__REFRESHMENT_STAND__NO_ALCOHOL_SALES": {
+    "mtid": "Beverage / Refreshment Stand - No Alcohol Sales",
+    "aliases": ["Juice Stand", "Lemonade Stand", "Beverage / Refreshment Stand - No Alcohol Sales"]
+  },
+  "BICYCLE_AND_BICYCLE_PARTS_MANUFACTURING": {
+    "mtid": "Bicycle and Bicycle Parts Manufacturing",
+    "aliases": ["Bike parts manufacturing", "Bicycle and Bicycle Parts Manufacturing"]
+  },
+  "BICYCLE_RENTAL": {
+    "mtid": "Bicycle Rental",
+    "aliases": ["Bicycle rental shop", "Bike rental", "Bicycle Rental"]
+  },
+  "BICYCLE_SHOP": {
+    "mtid": "Bicycle Shop",
+    "aliases": ["Bicycle store", "Bike shop", "Bike store", "Cycling shop", "Cycling store", "Retail", "Sales", "Manufacturers representative", "Bicycle Shop"]
+  },
+  "BIOTECH_RESEARCH_AND_DEVELOPMENT": {
+    "mtid": "Biotech Research and Development",
+    "aliases": ["Biotech research", "Biotech Research and Development"]
+  },
+  "BLOOD_AND_ORGAN_BANKS": {
+    "mtid": "Blood and Organ Banks",
+    "aliases": ["Blood banks", "Organ banks", "Blood and Organ Banks"]
+  },
+  "BOAT_CLUBS": {
+    "mtid": "Boat Clubs",
+    "aliases": ["Yacht clubs", "Boat Clubs"]
+  },
+  "BOAT_DEALERSHIPS": {
+    "mtid": "Boat Dealerships",
+    "aliases": ["Boat retailers", "Boat Dealerships"]
+  },
+  "BOAT_RENTAL": {
+    "mtid": "Boat Rental",
+    "aliases": ["Canoe Rental", "Kayak Rental", "Boat Rental"]
+  },
+  "BOOKBINDING_AND_PRINTING_SUPPLIES": {
+    "mtid": "Bookbinding and Printing Supplies",
+    "aliases": ["bookbinder", "book repair", "Bookbinding and Printing Supplies"]
+  },
+  "BOOKS__MAGAZINES_STORE": {
+    "mtid": "Books & Magazines Store",
+    "aliases": ["Book store", "Magazine store", "Retail", "Sales", "Manufacturers representative", "Books & Magazines Store"]
+  },
+  "BOWLING_EQUIPMENT_AND_SUPPLY_STORE": {
+    "mtid": "Bowling Equipment and Supply Store",
+    "aliases": ["Bowling equipment and supplies retail", "Bowling equipment and supplies sales", "Manufacturers representatives", "Bowling Equipment and Supply Store"]
+  },
+  "BREWERY": {
+    "mtid": "Brewery",
+    "aliases": ["beer", "cider", "Brewery"]
+  },
+  "BRIDAL_GOWN_STORE": {
+    "mtid": "Bridal Gown Store",
+    "aliases": ["wedding", "Boutique", "dress", "Bridal Gown Store"]
+  },
+  "BUSINESS_ADMINISTRATION_AND_SECRETARIAL_TRAINING": {
+    "mtid": "Business Administration and Secretarial Training",
+    "aliases": ["Court reporting schools", "Business Administration and Secretarial Training"]
+  },
+  "BUSINESS_ADMINISTRATIVE_SERVICES": {
+    "mtid": "Business Administrative Services",
+    "aliases": ["Dictation services", "Business Administrative Services"]
+  },
+  "BUSINESS_MANAGEMENT_CONSULTING_OFFICES": {
+    "mtid": "Business Management Consulting Offices",
+    "aliases": ["consultant", "Actuarial Consulting Services", "Strategy Consulting Services", "Social Media Consulting", "Fashion Consulting", "Business Management Consulting Offices"]
+  },
+  "BUTCHER_SHOP": {
+    "mtid": "Butcher Shop",
+    "aliases": ["Meat markets", "Butcher Shop"]
+  },
+  "CABLESATELLITE_NETWORK_PROVIDERS": {
+    "mtid": "Cable/Satellite Network Providers",
+    "aliases": ["Cable network providers", "Cable companies", "Cable/Satellite Network Providers"]
+  },
+  "CALENDAR_STORE": {
+    "mtid": "Calendar Store",
+    "aliases": ["Calendar retail", "Calendar sales", "Manufacturers representative", "Calendar Store"]
+  },
+  "CAMERA_AND_PHOTOGRAPHIC_EQUIPMENT_STORE": {
+    "mtid": "Camera and Photographic Equipment Store",
+    "aliases": ["Camera shops", "Photographic supply stores", "Photography store", "Retail", "Sales", "Manufacturing representative", "Camera and Photographic Equipment Store"]
+  },
+  "CAMERA_REPAIR_SHOPS": {
+    "mtid": "Camera Repair Shops",
+    "aliases": ["Camera store", "Photographic equipment repair shops", "Camera Repair Shops"]
+  },
+  "CAMPGROUNDS": {
+    "mtid": "Campgrounds",
+    "aliases": ["Campsites", "Campgrounds"]
+  },
+  "CAMPING_EQUIPMENT_RENTAL": {
+    "mtid": "Camping Equipment Rental",
+    "aliases": ["Outdoor camping equipment rental", "Camping gear rental", "Camping Equipment Rental"]
+  },
+  "CANDY_NUT_OR_CONFECTIONERY_STORE": {
+    "mtid": "Candy, Nut or Confectionery Store",
+    "aliases": ["Candy store", "Confectionery store", "Nut store", "Retail", "Sales", "Candy, Nut or Confectionery Store"]
+  },
+  "CARNIVALS": {
+    "mtid": "Carnivals",
+    "aliases": ["Fairs", "Carnivals"]
+  },
+  "CARPENTRY": {
+    "mtid": "Carpentry",
+    "aliases": ["construction", "framing", "General Contractor", "Home Builder", "Carpentry"]
+  },
+  "CARPET_RUG_AND_UPHOLSTERY_CLEANING": {
+    "mtid": "Carpet, Rug and Upholstery Cleaning",
+    "aliases": ["Carpet cleaning services", "Furniture cleaning services", "Rug cleaning services", "Upholstery cleaning services", "Carpet, Rug and Upholstery Cleaning"]
+  },
+  "CATERERS": {
+    "mtid": "Caterers",
+    "aliases": ["Catering services", "Caterers"]
+  },
+  "CHECK_CASHING_SERVICES": {
+    "mtid": "Check Cashing Services",
+    "aliases": ["Pay Day Loans", "Lending Services", "Check Cashing Services"]
+  },
+  "CHILD_DAY_CARE_SERVICES": {
+    "mtid": "Child Day Care Services",
+    "aliases": ["Day care", "Child Day Care Services"]
+  },
+  "CHILD_WELFARE_SERVICES": {
+    "mtid": "Child Welfare Services",
+    "aliases": ["Individual and family services", "Child Welfare Services"]
+  },
+  "CHIMNEY_CLEANING_SERVICES": {
+    "mtid": "Chimney Cleaning Services",
+    "aliases": ["Chimney sweeping", "Chimney Cleaning Services"]
+  },
+  "CHINAWARE_STORE": {
+    "mtid": "Chinaware Store",
+    "aliases": ["Chinaware sales", "Chinaware retail", "Chinaware Store"]
+  },
+  "CHIROPRACTOR_OFFICE": {
+    "mtid": "Chiropractor Office",
+    "aliases": ["chiropractic", "Chiropractor Office"]
+  },
+  "CHURCHES": {
+    "mtid": "Churches",
+    "aliases": ["Religious organizations", "Churches"]
+  },
+  "CIVIC_AND_SOCIAL_ORGANIZATIONS": {
+    "mtid": "Civic and Social Organizations",
+    "aliases": ["Civic organizations", "Social organizations", "Civic and Social Organizations"]
+  },
+  "CLOCK_AND_WATCH_REPAIR_SHOP": {
+    "mtid": "Clock and Watch Repair Shop",
+    "aliases": ["Watch repair shop", "clock repair shop", "Clock and Watch Repair Shop"]
+  },
+  "CLOCK_AND_WATCH_STORE": {
+    "mtid": "Clock and Watch Store",
+    "aliases": ["Clock shop", "Watch shop", "Retail", "Sales", "Manufacturers representative", "Clock and Watch Store"]
+  },
+  "CLOSET_ORGANIZER_STORE": {
+    "mtid": "Closet Organizer Store",
+    "aliases": ["Storage organizer store", "Organizing container store", "Retail", "Sales", "Manufacturers representative", "Closet Organizer Store"]
+  },
+  "CLOTHING_AND_APPAREL_STORE": {
+    "mtid": "Clothing and Apparel Store",
+    "aliases": ["Clothes", "Boutique", "Mens Clothing Store", "Womens Clothing Store", "Childrens Clothing Store", "Clothing and Apparel Distributor", "Clothing and Apparel Store"]
+  },
+  "CLOTHING_DESIGN_SERVICES": {
+    "mtid": "Clothing Design Services",
+    "aliases": ["Fashion design services", "Clothing Design Services"]
+  },
+  "COFFEE__ESPRESSO_STAND": {
+    "mtid": "Coffee / Espresso Stand",
+    "aliases": ["Drive-Thru", "Drive Through", "Coffee / Espresso Stand"],
+    "products":["BOP", "WC"]
+  },
+  "COFFEE_SHOP": {
+    "mtid": "Coffee Shop",
+    "aliases": ["Cafe", "Caffe", "Espresso", "Tea Room", "Coffee Shop"],
+    "products":["BOP", "WC"]
+  },
+  "COFFEE_TEA_AND_SPICE_STORE": {
+    "mtid": "Coffee, Tea, and Spice Store",
+    "aliases": ["Coffee and tea stores", "Spice stores", "Coffee, Tea, and Spice Store"],
+    "products":["BOP", "WC"]
+  },
+  "COLLECTIBLES_AND_MEMORABILIA_STORE": {
+    "mtid": "Collectibles and Memorabilia Store",
+    "aliases": ["Collectors items shops", "Collectibles and Memorabilia Store"]
+  },
+  "COLLECTION_AGENCY": {
+    "mtid": "Collection Agency",
+    "aliases": ["Debt collection services", "Bill collection services", "Collection agencies", "Collection Agency"]
+  },
+  "COLLEGES_UNIVERSITIES_AND_PROFESSIONAL_SCHOOLS": {
+    "mtid": "Colleges, Universities, and Professional Schools",
+    "aliases": ["education", "Colleges, Universities, and Professional Schools"]
+  },
+  "COMMUTER_TRANSIT_SYSTEM": {
+    "mtid": "Commuter Transit System",
+    "aliases": ["subway", "railroad", "train", "Commuter Transit System"]
+  },
+  "COMPUTER_AND_SOFTWARE_DISTRIBUTOR": {
+    "mtid": "Computer and Software Distributor",
+    "aliases": ["wholesale", "Computer and Software Distributor"]
+  },
+  "COMPUTER_CONSULTING_SERVICES": {
+    "mtid": "Computer Consulting Services",
+    "aliases": ["consultant", "IT Consulting Services", "Technology Consulting Services", "Computer Consulting Services"]
+  },
+  "COMPUTER_STORE": {
+    "mtid": "Computer Store",
+    "aliases": ["Computer Sales", "Software Sales", "Computer Repair", "Computer Store"]
+  },
+  "COMPUTER_TRAINING": {
+    "mtid": "Computer Training",
+    "aliases": ["Computer programming schools", "Computer software training", "Computer Training"]
+  },
+  "CONCESSION_STAND__SNACK_BAR": {
+    "mtid": "Concession Stand / Snack Bar",
+    "aliases": ["Street Meat", "Hot Dog", "Gyro", "Corn Dog", "Taco", "Popcorn", "Kettle Corn", "Kabab", "Pretzel", "Peanut", "Concession Stand / Snack Bar"]
+  },
+  "CONVENIENCE_STORE": {
+    "mtid": "Convenience Store",
+    "aliases": ["Grocery Store", "Convenience Store"]
+  },
+  "CONVENIENCE_STORE_WITH_GASOLINE_SALES": {
+    "mtid": "Convenience Store with Gasoline Sales",
+    "aliases": ["Gas Station", "Convenience Store with Gasoline Sales"]
+  },
+  "CORRECTIONAL_INSTITUTIONS": {
+    "mtid": "Correctional Institutions",
+    "aliases": ["Correctional centers", "Correctional clinics", "Correctional Institutions"]
+  },
+  "COSMETICS_TOILETRIES_AND_PERFUME_STORE": {
+    "mtid": "Cosmetics, Toiletries and Perfume Store",
+    "aliases": ["Cosmetics store", "Perfume store", "Cosmetics, Toiletries and Perfume Store"]
+  },
+  "COSMETOLOGY_SCHOOL": {
+    "mtid": "Cosmetology School",
+    "aliases": ["Cosmetology college", "Beauty school", "Cosmetology School"]
+  },
+  "COSTUME_RENTAL": {
+    "mtid": "Costume Rental",
+    "aliases": ["Wardrobe rental", "Wardrobe and costume store", "Costume Rental"]
+  },
+  "DAIRY_PRODUCTS_DISTRIBUTOR": {
+    "mtid": "Dairy Products Distributor",
+    "aliases": ["wholesale", "Dairy Products Distributor"]
+  },
+  "DAIRY_PRODUCTS_STORE": {
+    "mtid": "Dairy Products Store",
+    "aliases": ["Milk products store", "Milk product sales", "Dairy product sales", "Dairy Products Store"]
+  },
+  "DELICATESSENS__SANDWICH_SHOPS": {
+    "mtid": "Delicatessens & Sandwich Shops",
+    "aliases": ["Deli", "Sub Shop", "Lunch Counter", "Hoagie Shop", "Pita Shop", "Panini Shop", "Salad Bar", "Delicatessens & Sandwich Shops"]
+  },
+  "DENTIST_AND_ORAL_SURGEON_OFFICE": {
+    "mtid": "Dentist and Oral Surgeon Office",
+    "aliases": ["Dentistry", "Dental Office", "Orthodontist Office", "Dentist and Oral Surgeon Office"]
+  },
+  "DERMATOLOGY_OFFICE": {
+    "mtid": "Dermatology Office",
+    "aliases": ["Dermatologist", "Skin", "Dermatology Office"]
+  },
+  "DIRECT_MAIL_ADVERTISING_SERVICES": {
+    "mtid": "Direct Mail Advertising Services",
+    "aliases": ["Direct distribution of advertising material", "Circular direct distribution services", "Direct Mail Advertising Services"]
+  },
+  "DIRECTORY_AND_MAILING_LIST_PUBLISHERS": {
+    "mtid": "Directory and Mailing List Publishers",
+    "aliases": ["Address list publishers and printing combined", "Directory and Mailing List Publishers"]
+  },
+  "DISTILLERY": {
+    "mtid": "Distillery",
+    "aliases": ["liquor", "Distillery"]
+  },
+  "DIVING_EQUIPMENT_STORE": {
+    "mtid": "Diving Equipment Store",
+    "aliases": ["Scuba diving gear shop", "Diving Equipment Store"]
+  },
+  "DOG_TRAINING": {
+    "mtid": "Dog Training",
+    "aliases": ["Dog obedience school", "Dog Training"]
+  },
+  "DONUT_SHOPS": {
+    "mtid": "Donut Shops",
+    "aliases": ["Doughnut Shops", "Donut Shops"]
+  },
+  "DOOR_WINDOW_OR_ASSEMBLED_MILLWORK_INSTALLATION__METAL": {
+    "mtid": "Door, Window, or Assembled Millwork Installation - Metal",
+    "aliases": ["Door installation", "Window installation", "Assembled millwork installation", "Door, Window, or Assembled Millwork Installation - Metal"]
+  },
+  "DORMITORIES": {
+    "mtid": "Dormitories",
+    "aliases": ["Residence halls", "Dormitories"]
+  },
+  "DRESS_SHOP": {
+    "mtid": "Dress Shop",
+    "aliases": ["Clothes", "Clothing", "Boutique", "Dress Shop"]
+  },
+  "DRIVEWAY_PARKING_AREA_OR_SIDEWALK_REPAIR": {
+    "mtid": "Driveway, Parking Area, or Sidewalk repair",
+    "aliases": ["Driveway repair", "Parking lot repair", "Parking area repair", "Sidewalk repair", "Driveway, Parking Area, or Sidewalk repair"]
+  },
+  "DRYCLEANING_AND_LAUNDRY_SERVICES": {
+    "mtid": "Drycleaning and Laundry Services",
+    "aliases": ["Drycleaning", "Laundromat", "Drycleaning and Laundry Services"]
+  },
+  "DRYCLEANING_AND_LAUNDRY_SERVICES_WITH_PLANT_ON_SITE": {
+    "mtid": "Drycleaning and Laundry Services (with plant on site)",
+    "aliases": ["Laundromat", "Drycleaning", "Drycleaning and Laundry Services (with plant on site)"]
+  },
+  "DRYWALL_OR_WALLBOARD_INSTALLATION": {
+    "mtid": "Drywall or Wallboard Installation",
+    "aliases": ["Drywall installation", "Wallboard installation", "Drywall or Wallboard Installation"]
+  },
+  "DUCT_CLEANING_SERVICES": {
+    "mtid": "Duct Cleaning Services",
+    "aliases": ["vent", "dryer", "hood", "Duct Cleaning Services"]
+  },
+  "ELECTRICAL_APPLIANCE_EQUIPMENT_AND_COMPONENT_DISTRIBUTOR": {
+    "mtid": "Electrical Appliance, Equipment and Component Distributor",
+    "aliases": ["wholesale", "Electrical Appliance, Equipment and Component Distributor"]
+  },
+  "ELECTRICAL_CONTRACTOR__COMMERCIAL": {
+    "mtid": "Electrical Contractor - Commercial",
+    "aliases": ["Commercial electrical contractor", "Electrical Contractor - Commercial"],
+    "products":["GL"]
+  },
+  "ELECTRICAL_CONTRACTOR__RESIDENTIAL": {
+    "mtid": "Electrical Contractor - Residential",
+    "aliases": ["Residential electrical contractor", "Electrical Contractor - Residential"],
+    "products":["GL"]
+  },
+  "ELECTROLYSIS_HAIR_REMOVAL_SERVICES": {
+    "mtid": "Electrolysis (Hair Removal) Services",
+    "aliases": ["Hair removal services", "Laser hair removal services", "Electrolysis (Hair Removal) Services"]
+  },
+  "ELECTRONICS_STORE": {
+    "mtid": "Electronics Store",
+    "aliases": ["Battery Store", "Mobile Phone Store", "Electronics Store"]
+  },
+  "ELEMENTARY_AND_SECONDARY_SCHOOLS": {
+    "mtid": "Elementary and Secondary Schools",
+    "aliases": ["Elementary schools", "Secondary schools", "Elementary and Secondary Schools"]
+  },
+  "ELEVATOR_AND_ESCALATOR_MANUFACTURING": {
+    "mtid": "Elevator and Escalator Manufacturing",
+    "aliases": ["Elevator manufacturing", "Escalator manufacturing", "Elevator and Escalator Manufacturing"]
+  },
+  "ENGINEERS_OR_ARCHITECTURAL_CONSULTING__NO_CONSTRUCTION": {
+    "mtid": "Engineers or Architectural Consulting - No Construction",
+    "aliases": ["consultant", "Engineering Consulting Services", "Engineers or Architectural Consulting - No Construction"]
+  },
+  "ENVIRONMENT_CONSERVATION_AND_WILDLIFE_ORGANIZATIONS": {
+    "mtid": "Environment, Conservation and Wildlife Organizations",
+    "aliases": ["Wildlife organizations", "Environmental organizations", "Environment, Conservation and Wildlife Organizations"]
+  },
+  "ENVIRONMENTAL_CONSULTING_SERVICES": {
+    "mtid": "Environmental Consulting Services",
+    "aliases": ["Environmental consultant", "Environmental Consulting Services"]
+  },
+  "EQUIPMENT_AND_MACHINERY_DISTRIBUTOR": {
+    "mtid": "Equipment and Machinery Distributor",
+    "aliases": ["wholesale", "Equipment and Machinery Distributor"]
+  },
+  "EVENT_PROMOTERS": {
+    "mtid": "Event Promoters",
+    "aliases": ["boxing", "concert", "sports", "sporting", "fair", "rodeo", "festival", "carnival", "music", "race", "art", "Event Promoters"]
+  },
+  "EXAM_PREPARATION_AND_TUTORING_SERVICES": {
+    "mtid": "Exam Preparation and Tutoring Services",
+    "aliases": ["Academic tutoring services", "Educational consultants", "Tutoring services", "Exam preparation services", "Exam Preparation and Tutoring Services"]
+  },
+  "EXCAVATION": {
+    "mtid": "Excavation",
+    "aliases": ["Excavation contractors", "Excavation"]
+  },
+  "EXERCISE_EQUIPMENT_STORE": {
+    "mtid": "Exercise Equipment Store",
+    "aliases": ["Exercise equipment retail", "Exercise equipment sales", "Exercise Equipment Store"]
+  },
+  "EXPLOSIVES_MANUFACTURING": {
+    "mtid": "Explosives Manufacturing",
+    "aliases": ["dynamite", "dynomite", "Fireworks Manufacturing", "Explosives Manufacturing"]
+  },
+  "EXTERIOR_CLEANING": {
+    "mtid": "Exterior Cleaning",
+    "aliases": ["Pressure wash", "Exterior Cleaning"]
+  },
+  "EXTERMINATING_AND_PEST_CONTROL_SERVICES": {
+    "mtid": "Exterminating and Pest Control Services",
+    "aliases": ["Exterminator", "Pest control", "Exterminating and Pest Control Services"]
+  },
+  "FABRIC_STORE": {
+    "mtid": "Fabric Store",
+    "aliases": ["Sewing supply store", "Retail", "Sales", "embroidery", "Yarn Store", "Fabric Store"]
+  },
+  "FARM_AND_GARDEN_MACHINERY_AND_EQUIPMENT_DISTRIBUTOR": {
+    "mtid": "Farm and Garden Machinery and Equipment Distributor",
+    "aliases": ["wholesale", "Farm and Garden Machinery and Equipment Distributor"]
+  },
+  "FARM_AND_GARDEN_SUPPLY_STORE": {
+    "mtid": "Farm and Garden Supply Store",
+    "aliases": ["Garden centers", "Lawn supply stores", "Nursery and garden centers", "Farm and Garden Supply Store"]
+  },
+  "FARMING_ALL_TYPES": {
+    "mtid": "Farming (All Types)",
+    "aliases": ["Orchardist", "Fruit or Vegetable Grower", "Farming (All Types)"]
+  },
+  "FEED_GRAIN_OR_HAY_DEALERS": {
+    "mtid": "Feed, Grain, or Hay Dealers",
+    "aliases": ["Feed stores (except pet)", "Feed, Grain, or Hay Dealers"]
+  },
+  "FILM_AND_PHOTO_PROCESSING_STORE": {
+    "mtid": "Film and Photo Processing Store",
+    "aliases": ["One-hour photo", "Photoprinting", "Photofinishing", "Film and Photo Processing Store"]
+  },
+  "FINANCIAL_PLANNER_OFFICES__NO_STOCK_BROKERAGES": {
+    "mtid": "Financial Planner Offices - No stock brokerages",
+    "aliases": ["Certified financial planners", "Financial investment advice services", "Financial planning services", "Financial Planner Offices - No stock brokerages"]
+  },
+  "FIREWORKS_STORE": {
+    "mtid": "Fireworks Store",
+    "aliases": ["Firecrackers", "Pyrotechnics", "Sales", "Fireworks Store"]
+  },
+  "FISHING_EQUIPMENT_AND_SUPPLIES_STORE": {
+    "mtid": "Fishing Equipment and Supplies Store",
+    "aliases": ["Fishing supply stores", "Tackle shops", "Sales", "Retail", "Manufacturers representative", "Fishing Equipment and Supplies Store"]
+  },
+  "FITNESS_CENTERS": {
+    "mtid": "Fitness Centers",
+    "aliases": ["Fitness clinics", "Health and fitness centers", "Gyms", "Fitness Centers"]
+  },
+  "FLAGS_AND_BANNERS_STORE": {
+    "mtid": "Flags and Banners Store",
+    "aliases": ["Flags and banners retail", "Flags and banners sales", "Flags and Banners Store"]
+  },
+  "FLEA_MARKETS": {
+    "mtid": "Flea Markets",
+    "aliases": ["Antique store", "Flea Markets"]
+  },
+  "FLIGHT_TRAINING": {
+    "mtid": "Flight Training",
+    "aliases": ["Flight school", "Flight Training"]
+  },
+  "FLOOR_COVERING_STORE": {
+    "mtid": "Floor Covering Store",
+    "aliases": ["Carpet store", "Rug store", "Retail", "Sales", "Floor Covering Store"]
+  },
+  "FLORIST": {
+    "mtid": "Florist",
+    "aliases": ["Floral", "Flower", "Flower Shop (Live or Fresh)", "Florist"]
+  },
+  "FOOD_AND_BEVERAGE_DISTRIBUTOR": {
+    "mtid": "Food and Beverage Distributor",
+    "aliases": ["alcohol", "Seafood", "Poultry", "Meat", "Produce", "Fruit", "Vegetable", "wholesale", "Food and Beverage Distributor"]
+  },
+  "FOREIGN_LANGUAGE_SCHOOL": {
+    "mtid": "Foreign Language School",
+    "aliases": ["Secondary language instruction", "Foreign Language School"]
+  },
+  "FORMAL_WEAR_RENTAL": {
+    "mtid": "Formal Wear Rental",
+    "aliases": ["Bridal wear rental", "Dress suit rental", "Fur rental", "Gown rental", "Tuxedo rental", "Clothing rental (except industrial launderer, linen supply)", "Graduation cap and gown rental", "Wardrobe rental", "Formal Wear Rental"]
+  },
+  "FOSTER_HOMES": {
+    "mtid": "Foster Homes",
+    "aliases": ["Foster care centers", "Foster Homes"]
+  },
+  "FRUIT_OR_VEGETABLE_DEALERS": {
+    "mtid": "Fruit or Vegetable Dealers",
+    "aliases": ["Fruit or vegatable stand", "Fruit markets", "Vegatable markets", "Produce markets", "Produce Vendor", "Fruit or Vegetable Dealers"]
+  },
+  "FUNERAL_HOMES_OR_CHAPELS": {
+    "mtid": "Funeral Homes or Chapels",
+    "aliases": ["mortuary", "Embalming Services", "Mortician", "Crematory", "Funeral Homes or Chapels"]
+  },
+  "FURNITURE_AND_HOUSEWARES_DISTRIBUTOR": {
+    "mtid": "Furniture and Housewares Distributor",
+    "aliases": ["wholesale", "Furniture and Housewares Distributor"]
+  },
+  "FURNITURE_STORE": {
+    "mtid": "Furniture Store",
+    "aliases": ["Furniture retail", "Furniture sales", "Used Furniture Store", "Furniture Store"]
+  },
+  "GARBAGE_AND_RECYCLING_COLLECTION_SERVICES": {
+    "mtid": "Garbage and Recycling Collection Services",
+    "aliases": ["hauler", "Junk Removal Services", "Garbage and Recycling Collection Services"]
+  },
+  "GIFT_SHOPS": {
+    "mtid": "Gift Shops",
+    "aliases": ["Greeting card shop", "Gift stands", "Gift Shops"]
+  },
+  "GLASSWARE_STORE": {
+    "mtid": "Glassware Store",
+    "aliases": ["Glassware sales", "Retail", "Glassware Store"]
+  },
+  "GOLF_EQUIPMENT_AND_SUPPLIES_STORE": {
+    "mtid": "Golf Equipment and Supplies Store",
+    "aliases": ["Golf pro shops", "Retail", "Sales", "Golf Equipment and Supplies Store"]
+  },
+  "GRAPHIC_DESIGN_SERVICES": {
+    "mtid": "Graphic Design Services",
+    "aliases": ["Artist", "Web Development", "Web Design", "Graphic Design Services"]
+  },
+  "GUN_SHOP": {
+    "mtid": "Gun Shop",
+    "aliases": ["Gun and ammunition store", "Retail", "Sales", "Gun Shop"]
+  },
+  "GUTTER_AND_DOWNSPOUT_CLEANING_SERVICES": {
+    "mtid": "Gutter and Downspout Cleaning Services",
+    "aliases": ["Gutter cleaning", "Gutter and Downspout Cleaning Services"]
+  },
+  "HANDBAG_STORES": {
+    "mtid": "Handbag Stores",
+    "aliases": ["Purse", "Manbag", "Murse", "Leather", "Fannypack", "Satchel", "Handbag Stores"]
+  },
+  "HARDWARE__TOOLS_STORE": {
+    "mtid": "Hardware & Tools Store",
+    "aliases": ["Hardware and tools retail", "Hardware and tools sales", "Manufacturers representative", "Hardware & Tools Store"]
+  },
+  "HAT_AND_CAP_STORE": {
+    "mtid": "Hat and Cap Store",
+    "aliases": ["Retail", "Sales", "Boutique", "Manufacturers representative", "Hat and Cap Store"]
+  },
+  "HEALTH_OR_NATURAL_FOOD_STORES": {
+    "mtid": "Health or Natural Food Stores",
+    "aliases": ["Nutrition specialist", "Herbal supplement stores", "Health food store", "Supplement store", "Retail", "Sales", "Health or Natural Food Stores"]
+  },
+  "HEATING_AND_AIR_CONDITIONING_INSTALLATION__REPAIR": {
+    "mtid": "Heating and Air Conditioning Installation & Repair",
+    "aliases": ["HVAC", "Heating and Air Conditioning Installation & Repair"]
+  },
+  "HOBBY_CRAFT_OR_ARTISTS_SUPPLY_STORE": {
+    "mtid": "Hobby, Craft or Artists' Supply Store",
+    "aliases": ["Craft supply store", "Hobby shops", "Arts and crafts retail", "Arts and crafts sales", "Manufacturers representatives", "Hobby, Craft or Artists' Supply Store"]
+  },
+  "HOME_FURNISHINGS_STORE": {
+    "mtid": "Home Furnishings Store",
+    "aliases": ["Home interior store", "Home decorating store", "Home furniture store", "Sales", "Retail", "Manufacturers representatives", "Home Furnishings Store"]
+  },
+  "HOME_IMPROVEMENT_STORE": {
+    "mtid": "Home Improvement Store",
+    "aliases": ["Home improvement retail", "Home improvement sales", "Manufacturers representatives", "Home Improvement Store"]
+  },
+  "HOT_TUB_STORE": {
+    "mtid": "Hot Tub Store",
+    "aliases": ["Jacuzzi store", "Hot tub retail", "Hot tub sales", "Manufacturer representatives", "Hot Tub Store"]
+  },
+  "ICE_CREAM_STAND": {
+    "mtid": "Ice Cream Stand",
+    "aliases": ["Gelato Stand", "Custard Stand", "Shave Ice Stand", "Snow Cone Stand", "Ice Cream Stand"]
+  },
+  "ICE_CREAM_STORE": {
+    "mtid": "Ice Cream Store",
+    "aliases": ["Gelato Store", "Custard Store", "Ice Cream Store"]
+  },
+  "INSPECTION_APPRAISAL_AND_CLAIMS_ADJUSTING_OFFICES": {
+    "mtid": "Inspection, Appraisal and Claims Adjusting Offices",
+    "aliases": ["Cause-of-loss investigators", "insurance", "Claims adjusting", "Insurance claims/investigation services", "Building inspection services", "Inspection, Appraisal and Claims Adjusting Offices"]
+  },
+  "INSURANCE_AGENCY_OFFICES": {
+    "mtid": "Insurance Agency Offices",
+    "aliases": ["Insurance Agent", "Insurance Agency Offices"]
+  },
+  "INTERIOR_CARPENTRY": {
+    "mtid": "Interior Carpentry",
+    "aliases": ["Handyman", "Cabinet Installation", "Interior Carpentry"]
+  },
+  "INTERIOR_DECORATORS": {
+    "mtid": "Interior Decorators",
+    "aliases": ["Interior Design Services", "Home Staging Services", "Interior Decorators"]
+  },
+  "JANITORIAL_CLEANING_SERVICES": {
+    "mtid": "Janitorial Cleaning Services",
+    "aliases": ["House Cleaning Services", "Maid Services", "Residential Cleaning Services", "Housekeeper", "Custodian", "Custodial services", "Housekeeping services", "Maid services", "Janitorial Cleaning Services"]
+  },
+  "JANITORIAL_SUPPLIES_STORE": {
+    "mtid": "Janitorial Supplies Store",
+    "aliases": ["Cleaning equipment and supplies store", "Retail", "Sales", "Janitorial Supplies Store"]
+  },
+  "JEWELRY_DESIGN_SERVICES": {
+    "mtid": "Jewelry Design Services",
+    "aliases": ["Jewelry services", "Jewelry Design Services"]
+  },
+  "JEWELRY_STORE__PRECIOUS": {
+    "mtid": "Jewelry Store - Precious",
+    "aliases": ["Jewelry retail", "Jewelry sales", "Manufacturers representatives", "Jewelry Store - Precious"]
+  },
+  "JUICE_AND_BEVERAGE_SHOP": {
+    "mtid": "Juice and Beverage Shop",
+    "aliases": ["Smoothie Shop", "Bubble Tea Shop", "Juice and Beverage Shop"]
+  },
+  "KITCHEN_ACCESSORIES_STORE": {
+    "mtid": "Kitchen Accessories Store",
+    "aliases": ["Kitchen stores", "Kitchenware store", "Cutlery store", "Retail", "Sales", "Kitchen Accessories Store"]
+  },
+  "LAW_OFFICES": {
+    "mtid": "Law Offices",
+    "aliases": ["Attorney", "Lawyer", "Legal Services", "Law Offices"]
+  },
+  "LAWN_AND_GARDEN_EQUIPMENT_STORE": {
+    "mtid": "Lawn and Garden Equipment Store",
+    "aliases": ["Garden power equipment stores", "Lawn power equipment", "Retail", "Sales", "Lawn and Garden Equipment Store"]
+  },
+  "LEATHER_GOODS_STORE": {
+    "mtid": "Leather Goods Store",
+    "aliases": ["Leather sales", "Leather retail", "Manufacturers representatives", "Leather Goods Store"]
+  },
+  "LIFE_COACH": {
+    "mtid": "Life Coach",
+    "aliases": ["Life counselor", "Life Coach"]
+  },
+  "LIGHTING_STORE": {
+    "mtid": "Lighting Store",
+    "aliases": ["Lamp store", "Lighting retail", "Lighting sales", "Lighting Store"]
+  },
+  "LINEN_STORE": {
+    "mtid": "Linen Store",
+    "aliases": ["Linen retail", "Lines sales", "Manufacturers representatives", "Linen Store"]
+  },
+  "LINGERIE_STORE": {
+    "mtid": "Lingerie Store",
+    "aliases": ["Intimates", "Underwear", "Undergarments", "Hosiery", "Lingerie Store"]
+  },
+  "LIVESTOCK_OR_DAIRY_FARMS": {
+    "mtid": "Livestock or Dairy Farms",
+    "aliases": ["Livestock farm", "Dairy farm", "Livestock or Dairy Farms"]
+  },
+  "LOCKSMITHS": {
+    "mtid": "Locksmiths",
+    "aliases": ["Locksmith services", "Locksmith shops", "Locksmiths"]
+  },
+  "LUGGAGE_GOODS_STORE": {
+    "mtid": "Luggage Goods Store",
+    "aliases": ["Luggage shops", "Luggage retail", "Luggage sales", "Luggage Goods Store"]
+  },
+  "MARKETING_CONSULTING_OFFICES": {
+    "mtid": "Marketing Consulting Offices",
+    "aliases": ["consultant", "public relations", "Marketing Consulting Services", "Sales Consulting Services", "Marketing Consulting Offices"]
+  },
+  "MASSAGE_PARLORS": {
+    "mtid": "Massage Parlors",
+    "aliases": ["Massage services", "Massage Therapist", "Massage Parlors"]
+  },
+  "MEAT_POULTRY_OR_SEAFOOD_STORE": {
+    "mtid": "Meat, Poultry or Seafood Store",
+    "aliases": ["Frozen meat stores", "Meat markets", "Poultry dealers", "Fish markets", "Meat, Poultry or Seafood Store"]
+  },
+  "MEDICAL_EQUIPMENT_AND_SUPPLIES_DISTRIBUTOR": {
+    "mtid": "Medical Equipment and Supplies Distributor",
+    "aliases": ["wholesale", "Medical Equipment and Supplies Distributor"]
+  },
+  "MEDICAL_EQUIPMENT_MANUFACTURING": {
+    "mtid": "Medical Equipment Manufacturing",
+    "aliases": ["Dental Equipment Manufacturing", "Surgical Equipment Manufacturing", "Medical Equipment Manufacturing"]
+  },
+  "METAL_PRODUCTS_DISTRIBUTOR": {
+    "mtid": "Metal Products Distributor",
+    "aliases": ["wholesale", "Metal Products Distributor"]
+  },
+  "MINERAL_DISTRIBUTOR": {
+    "mtid": "Mineral Distributor",
+    "aliases": ["wholesale", "Mineral Distributor"]
+  },
+  "MINING": {
+    "mtid": "Mining",
+    "aliases": ["Quarrying", "Mining"]
+  },
+  "MONUMENTS_AND_TOMBSTONES_STORE": {
+    "mtid": "Monuments and Tombstones Store",
+    "aliases": ["Cemetary memorial dealers", "Monument dealers", "Monuments and Tombstones Store"]
+  },
+  "MORTGAGE_BROKERS_OFFICE": {
+    "mtid": "Mortgage Brokers Office",
+    "aliases": ["Loan agencies", "Mortgage Brokers Office"]
+  },
+  "MOSQUES": {
+    "mtid": "Mosques",
+    "aliases": ["Religious organizations", "Mosques"]
+  },
+  "MOTOR_VEHICLE_PARTS_AND_SUPPLIES_DISTRIBUTOR": {
+    "mtid": "Motor Vehicle Parts and Supplies Distributor",
+    "aliases": ["Automobile", "Automotive", "wholesale", "Motor Vehicle Parts and Supplies Distributor"]
+  },
+  "MOVIE_AND_VIDEO_GAME_RENTAL_STORE": {
+    "mtid": "Movie and Video Game Rental Store",
+    "aliases": ["DVD", "VHS", "Playstation", "XBox", "Movie and Video Game Retail Store", "Movie and Video Game Rental Store"]
+  },
+  "MUSIC_STORE": {
+    "mtid": "Music Store",
+    "aliases": ["Record stores", "Retail", "Sales", "Manufacturers representatives", "Music Store"]
+  },
+  "MUSICAL_INSTRUMENT_STORE": {
+    "mtid": "Musical Instrument Store",
+    "aliases": ["Musical Instrument Repair", "Musical Instrument Store"]
+  },
+  "NAIL_SALONS": {
+    "mtid": "Nail Salons",
+    "aliases": ["manicure", "pedicure", "Nail Salons"]
+  },
+  "NATUROPATHIC_SPECIALIST_OFFICE": {
+    "mtid": "Naturopathic Specialist Office",
+    "aliases": ["Naturopath", "Alternative Medicine", "Homeopath", "Holistic", "Naturopathic Specialist Office"]
+  },
+  "NEWSSTANDS": {
+    "mtid": "Newsstands",
+    "aliases": ["Magazine stands", "News dealers", "Newsstands"]
+  },
+  "NURSING_CARE_FACILITIES": {
+    "mtid": "Nursing Care Facilities",
+    "aliases": ["Nursing home facilities", "Nursing Care Facilities"]
+  },
+  "NUTRITIONIST_OFFICE": {
+    "mtid": "Nutritionist Office",
+    "aliases": ["diet", "weight loss", "Nutritionist Office"]
+  },
+  "OFFICE_EQUIPMENT_STORE": {
+    "mtid": "Office Equipment Store",
+    "aliases": ["Sales", "Retail", "Office Equipment Store"]
+  },
+  "OFFICE_SUPPLIES_AND_STATIONERY_STORES": {
+    "mtid": "Office Supplies and Stationery Stores",
+    "aliases": ["Office supply stores", "School supply stores", "Stationery stores", "Office Supplies and Stationery Stores"]
+  },
+  "OFFICE_SUPPLIES_DISTRIBUTOR": {
+    "mtid": "Office Supplies Distributor",
+    "aliases": ["wholesale", "Office Supplies Distributor"]
+  },
+  "ONLINE_RETAILER__NO_AUTOMOBILES_FIREARMS_DRUGS_OR_ALCOHOL_SALES": {
+    "mtid": "Online Retailer - No automobiles, firearms, drugs or alcohol sales",
+    "aliases": ["E-tailers", "Internet retail sales sites", "Web retailers", "Online Retailer - No automobiles, firearms, drugs or alcohol sales"]
+  },
+  "OPHTHALMIC_GOODS_DISTRIBUTOR": {
+    "mtid": "Ophthalmic Goods Distributor",
+    "aliases": ["eye", "glasses", "contacts", "wholesale", "Ophthalmic Goods Distributor"]
+  },
+  "OPHTHALMOLOGIST_OFFICE": {
+    "mtid": "Ophthalmologist Office",
+    "aliases": ["Vision", "Ophthalmology", "Opthalmology", "Ophthalmic", "Ophthalmologist Office"]
+  },
+  "OPTICAL_GOODS_STORE": {
+    "mtid": "Optical Goods Store",
+    "aliases": ["Vision", "Eyewear Store", "Optical Goods Store"]
+  },
+  "OPTOMETRIST_OFFICE": {
+    "mtid": "Optometrist Office",
+    "aliases": ["Vision", "Optometry", "Optometrist Office"]
+  },
+  "OUTPATIENT_MENTAL_HEALTH_AND_SUBSTANCE_ABUSE_CENTER": {
+    "mtid": "Outpatient Mental Health and Substance Abuse Center",
+    "aliases": ["alcohol", "drug", "rehab", "Outpatient Mental Health and Substance Abuse Center"]
+  },
+  "PACKAGING_AND_MAILING_CENTERS_EG_MAIL_BOXES_EXPRESS_UPS_STORE_FEDEX": {
+    "mtid": "Packaging and Mailing Centers (e.g. Mail Boxes Express, UPS Store, FedEx)",
+    "aliases": ["Mailbox rental services", "Parcel mailing services", "Packaging and Mailing Centers (e.g. Mail Boxes Express, UPS Store, FedEx)"]
+  },
+  "PAINT_DISTRIBUTOR": {
+    "mtid": "Paint Distributor",
+    "aliases": ["wholesale", "Paint Distributor"]
+  },
+  "PAINT_WALLPAPER_OR_WALLCOVERING_STORE": {
+    "mtid": "Paint, Wallpaper or Wallcovering Store",
+    "aliases": ["Paint Stores", "Wallpaper and wall covering stores", "Paint, Wallpaper or Wallcovering Store"]
+  },
+  "PAPER_PRODUCTS_DISTRIBUTOR": {
+    "mtid": "Paper Products Distributor",
+    "aliases": ["wholesale", "Paper Products Distributor"]
+  },
+  "PAPER_PRODUCTS_MANUFACTURING": {
+    "mtid": "Paper Products Manufacturing",
+    "aliases": ["Paper Mill", "Paper Products Manufacturing"]
+  },
+  "PARTY_PLANNING_CONSULTANT": {
+    "mtid": "Party Planning Consultant",
+    "aliases": ["Event Planner", "Party Planning Consultant"]
+  },
+  "PARTY_SUPPLIES_STORE": {
+    "mtid": "Party Supplies Store",
+    "aliases": ["Party supplies retail", "Party supplies sales", "Party Supplies Store"]
+  },
+  "PAYROLL_SERVICES_OFFICE": {
+    "mtid": "Payroll Services Office",
+    "aliases": ["Payroll processing services", "Payroll Services Office"]
+  },
+  "PET_STORE": {
+    "mtid": "Pet Store",
+    "aliases": ["Pet feed stores", "Pet shops", "Pet supply stores", "Pet Store"]
+  },
+  "PETROLEUM_REFINERIES": {
+    "mtid": "Petroleum Refineries",
+    "aliases": ["Petroleum Plant", "Petroleum Refineries"]
+  },
+  "PHARMACEUTICALS_DISTRIBUTOR": {
+    "mtid": "Pharmaceuticals Distributor",
+    "aliases": ["drug", "wholesale", "Pharmaceuticals Distributor"]
+  },
+  "PHARMACEUTICALS_MANUFACTURING": {
+    "mtid": "Pharmaceuticals Manufacturing",
+    "aliases": ["drug", "Pharmaceuticals Manufacturing"]
+  },
+  "PHOTOGRAPHERS": {
+    "mtid": "Photographers",
+    "aliases": ["Photography", "Photography Studio", "Photographers"]
+  },
+  "PHYSICAL_THERAPIST": {
+    "mtid": "Physical Therapist",
+    "aliases": ["kinesiology", "kinesiologist", "Occupational Therapy Office", "Physical Therapy Office", "Physical Therapist"]
+  },
+  "PHYSICIANS_AND_SURGEONS_OFFICE": {
+    "mtid": "Physicians and Surgeons Office",
+    "aliases": ["Doctors Office", "Pediatric Office", "Physicians and Surgeons Office"]
+  },
+  "PIZZERIA": {
+    "mtid": "Pizzeria",
+    "aliases": ["Pizza", "Slices", "Pie", "Take-N-Bake Pizza", "Pizzeria"]
+  },
+  "PLASTIC_AND_RUBBER_PRODUCTS_DISTRIBUTOR": {
+    "mtid": "Plastic and Rubber Products Distributor",
+    "aliases": ["wholesale", "Plastic and Rubber Products Distributor"]
+  },
+  "PLUMBING__COMMERCIAL": {
+    "mtid": "Plumbing - Commercial",
+    "aliases": ["Commercial plumbing", "Plumbing - Commercial"]
+  },
+  "PLUMBING__RESIDENTIAL": {
+    "mtid": "Plumbing - Residential",
+    "aliases": ["Residential plumbing", "Plumbing - Residential"]
+  },
+  "PODIATRIST_OFFICE": {
+    "mtid": "Podiatrist Office",
+    "aliases": ["Podiatry", "Podiatrist Office"]
+  },
+  "POWER_EQUIPMENT_STORE": {
+    "mtid": "Power Equipment Store",
+    "aliases": ["Outdoor power equipment stores", "Retail", "Sales", "Power Equipment Store"]
+  },
+  "PRINTING_BOOKS_CARDS_CATALOGS_MAGAZINES_STATIONERY_ETC__NO_SILK_SCREENING": {
+    "mtid": "Printing (Books, Cards, Catalogs, Magazines, Stationery, etc.) - No Silk Screening",
+    "aliases": ["printer", "Print Shop", "Copy Center", "Printing (Books, Cards, Catalogs, Magazines, Stationery, etc.) - No Silk Screening"]
+  },
+  "PROFESSIONAL_AND_MANAGEMENT_DEVELOPMENT_TRAINING": {
+    "mtid": "Professional and Management Development Training",
+    "aliases": ["Management development training", "Professional development training", "Professional and Management Development Training"]
+  },
+  "PROPERTY_MANAGEMENT": {
+    "mtid": "Property Management",
+    "aliases": ["superintendent", "Property Management"]
+  },
+  "PSYCHOLOGIST_OFFICE": {
+    "mtid": "Psychologist Office",
+    "aliases": ["counselor", "Psychiatrist Office", "Mental Health Counseling Office", "Marriage and Family Counseling Office", "Social Workers Office", "Psychologist Office"]
+  },
+  "REAL_ESTATE_AGENTS": {
+    "mtid": "Real Estate Agents",
+    "aliases": ["Real estate agency", "Real Estate Agents"]
+  },
+  "REAL_ESTATE_APPRAISERS": {
+    "mtid": "Real Estate Appraisers",
+    "aliases": ["Home Inspection Services", "Real Estate Appraisers"]
+  },
+  "RELIGIOUS_ORGANIZATIONS": {
+    "mtid": "Religious Organizations",
+    "aliases": ["Churches", "Mosques", "Synagogues", "Temples", "Religious Organizations"]
+  },
+  "RINKS__ICE_OR_ROLLER_SKATING": {
+    "mtid": "Rinks - Ice or Roller Skating",
+    "aliases": ["Ice skating arena", "Roller skating arena", "Rinks - Ice or Roller Skating"]
+  },
+  "SAND_AND_GRAVEL_HAULING": {
+    "mtid": "Sand and Gravel Hauling",
+    "aliases": ["Sand and gravel transportation", "Sand and Gravel Hauling"]
+  },
+  "SCHOOL_UNIFORM_STORE": {
+    "mtid": "School Uniform Store",
+    "aliases": ["Uniform stores", "Uniform retail", "Manufacturers representatives", "School Uniform Store"]
+  },
+  "SECOND_HAND_STORE": {
+    "mtid": "Second Hand Store",
+    "aliases": ["Used clothing stores", "Thrift store", "Second Hand Store"]
+  },
+  "SEWING_MACHINE_STORE": {
+    "mtid": "Sewing Machine Store",
+    "aliases": ["Sewing machine retail", "Sewing machine sales", "Manufacturers representatives", "Sewing Machine Store"]
+  },
+  "SHOE_REPAIR": {
+    "mtid": "Shoe Repair",
+    "aliases": ["Cobbler", "Shoe Repair"]
+  },
+  "SHOE_STORE": {
+    "mtid": "Shoe Store",
+    "aliases": ["Footwear stores", "Orthopedic shoes store", "Shoe boutique", "Shoe retail", "Shoe sales", "Manufacturers representative", "Shoe Store"]
+  },
+  "SKI_AND_SNOWBOARD_EQUIPMENT_STORE": {
+    "mtid": "Ski and Snowboard Equipment Store",
+    "aliases": ["Ski and snowboard retail", "Ski and snowboard sales", "Manufacturer representatives", "Ski and Snowboard Equipment Store"]
+  },
+  "SPECIALTY_FOOD_STORE": {
+    "mtid": "Specialty Food Store",
+    "aliases": ["Gourmet food stores", "Specialty food store", "Specialty Food Store"]
+  },
+  "SPEECH_THERAPIST": {
+    "mtid": "Speech Therapist",
+    "aliases": ["Speech Pathologist", "Speech Therapist"]
+  },
+  "SPORTING_GOODS_DISTRIBUTOR": {
+    "mtid": "Sporting Goods Distributor",
+    "aliases": ["wholesale", "Sporting Goods Distributor"]
+  },
+  "SPORTING_GOODS_STORE": {
+    "mtid": "Sporting Goods Store",
+    "aliases": ["Athletic supply store", "Outdoor sporting equipment stores", "Sports gear store", "Retail", "Sales", "Used Sporting Goods Store", "Sporting Goods Store"]
+  },
+  "SPORTS_AND_ENTERTAINMENT_TICKET_AGENCY": {
+    "mtid": "Sports and Entertainment Ticket Agency",
+    "aliases": ["Sports ticket offices", "Theatrical ticket offices", "Ticket offices", "Sports and Entertainment Ticket Agency"]
+  },
+  "SPORTS_TEAMS_AND_CLUBS": {
+    "mtid": "Sports Teams and Clubs",
+    "aliases": ["team", "basketball", "football", "baseball", "hockey", "lacrosse", "tennis", "swimming", "soccer", "softball", "volleyball", "wrestling", "golf", "track", "rugby", "cricket", "ski", "waterski", "snowboard", "Recreation Clubs", "Sports Teams and Clubs"]
+  },
+  "SPORTS_UNIFORM_STORE": {
+    "mtid": "Sports Uniform Store",
+    "aliases": ["Athletic uniform store", "Sports uniform retail", "Sports uniform sales", "Sports Uniform Store"]
+  },
+  "STENOGRAPHY_COURT_REPORTING_AND_WORD_PROCESSING_SERVICES": {
+    "mtid": "Stenography, Court Reporting and Word Processing Services",
+    "aliases": ["Court reporting services", "Public stenography services", "Stenotype recording services", "Stenography, Court Reporting and Word Processing Services"]
+  },
+  "STREET_AND_DRIVEWAY_CLEANING_SERVICES": {
+    "mtid": "Street and Driveway Cleaning Services",
+    "aliases": ["Street cleaning services", "Driveway cleaning services", "Street and Driveway Cleaning Services"]
+  },
+  "STREET_FOOD_VENDOR": {
+    "mtid": "Street Food Vendor",
+    "aliases": ["Snack stands", "Street Food Vendor"]
+  },
+  "SUNGLASS_STORE": {
+    "mtid": "Sunglass Store",
+    "aliases": ["Sunglasses retail", "Sunglasses sales", "Manufacturers representatives", "Sunglass Store"]
+  },
+  "SUNLESS_SPRAY_TANNING_SALONS": {
+    "mtid": "Sunless Spray Tanning Salons",
+    "aliases": ["Spray tanning", "Surfboard rental", "Sunless Spray Tanning Salons"]
+  },
+  "SURFBOARD_AND_STANDUP_PADDLEBOARD_RENTAL": {
+    "mtid": "Surfboard and Stand-Up Paddleboard Rental",
+    "aliases": ["Paddleboard rental", "Surfboard rental", "Surfboard and Stand-Up Paddleboard Rental"]
+  },
+  "SWIMMING_POOL_SUPPLY_STORE": {
+    "mtid": "Swimming Pool Supply Store",
+    "aliases": ["Swimming pool supply retail", "Swimming pool supply sales", "Swimming Pool Supply Store"]
+  },
+  "SYNAGOGUES": {
+    "mtid": "Synagogues",
+    "aliases": ["Religious organizations", "Synagogues"]
+  },
+  "TSHIRT_SHOP": {
+    "mtid": "T-Shirt Shop",
+    "aliases": ["Tee shirt store", "T-shirt retail", "Tee shirt retail", "T-shirt sales", "Tee shirt sales", "T-Shirt Shop"]
+  },
+  "TACK_SHOP__SADDLERY_STORE": {
+    "mtid": "Tack Shop - Saddlery Store",
+    "aliases": ["Saddlery stores", "Tack shops", "Horse care equipment retail", "Saddlery sales", "Tack Shop - Saddlery Store"]
+  },
+  "TAILORING_AND_ALTERATIONS_SERVICES": {
+    "mtid": "Tailoring and Alterations Services",
+    "aliases": ["Clothing repair shops", "Garment alteration services", "Tailor shops", "Tailoring and Alterations Services"]
+  },
+  "TAXI_LIMO_AND_TOWNCAR_SERVICE": {
+    "mtid": "Taxi, Limo and Towncar Service",
+    "aliases": ["Cab", "black car", "uber", "shuttle", "ride", "transportation", "Taxi, Limo and Towncar Service"]
+  },
+  "TELEMARKETING_SERVICES": {
+    "mtid": "Telemarketing Services",
+    "aliases": ["Customer service call centers", "Telemarketing bureaus", "Telephone call centers", "Telemarketing Services"]
+  },
+  "TELEVISION_BROADCASTING": {
+    "mtid": "Television Broadcasting",
+    "aliases": ["Internet Provider", "Television Broadcasting"]
+  },
+  "TIE_SHOPS": {
+    "mtid": "Tie Shops",
+    "aliases": ["Neckwear stores", "Tie shops", "Retail", "Sales", "Tie Shops"]
+  },
+  "TILE_STONE_MARBLE_MOSAIC_OR_TERRAZZO_WORK": {
+    "mtid": "Tile, Stone, Marble Mosaic or Terrazzo Work",
+    "aliases": ["construction", "textile", "Tile, Stone, Marble Mosaic or Terrazzo Work"]
+  },
+  "TIRE_DISTRIBUTOR": {
+    "mtid": "Tire Distributor",
+    "aliases": ["wholesale", "Tire Distributor"]
+  },
+  "TIRE_SHOP": {
+    "mtid": "Tire Shop",
+    "aliases": ["Tire store", "Retail", "Sales", "Tire Shop"]
+  },
+  "TITLE_AGENCY_OFFICE": {
+    "mtid": "Title Agency Office",
+    "aliases": ["Settlement offices", "Title abstract companies", "Title search companies", "Title Agency Office"]
+  },
+  "TOBACCO_PRODUCTS_DISTRIBUTOR": {
+    "mtid": "Tobacco Products Distributor",
+    "aliases": ["wholesale", "Tobacco Products Distributor"]
+  },
+  "TOBACCO_STORES": {
+    "mtid": "Tobacco Stores",
+    "aliases": ["Tobacco retail", "Tobacco sales", "Tobacco Stores"]
+  },
+  "TOW_TRUCK_SERVICES": {
+    "mtid": "Tow Truck Services",
+    "aliases": ["towing", "hauler", "wrecker", "Roadside Assistance", "Tow Truck Services"]
+  },
+  "TRANSLATION_AND_INTERPRETATION_SERVICES": {
+    "mtid": "Translation and Interpretation Services",
+    "aliases": ["Language interpretation services", "Language translation services", "Speech translation services", "Speech interpretation services", "Translation and Interpretation Services"]
+  },
+  "TRAVEL_AGENCY_OFFICES": {
+    "mtid": "Travel Agency Offices",
+    "aliases": ["Travel agencies", "Travel Agency Offices"]
+  },
+  "TRUCK_UTILITY_TRAILER_AND_RV_RENTALS": {
+    "mtid": "Truck, Utility Trailer and RV Rentals",
+    "aliases": ["Truck rental", "Utility trailer rental", "RV rental", "Truck, Utility Trailer and RV Rentals"]
+  },
+  "TRUCKING_LONGHAUL_AND_SHORTHAUL": {
+    "mtid": "Trucking (Long-Haul and Short-Haul)",
+    "aliases": ["Long haul trucking", "Short haul trucking", "Transporting Goods", "Parcel Delivery", "Trucking (Long-Haul and Short-Haul)"]
+  },
+  "USED_BOOKS__MAGAZINES_STORE": {
+    "mtid": "Used Books & Magazines Store",
+    "aliases": ["Used book store", "Retail", "Sales", "Used Books & Magazines Store"]
+  },
+  "VACUUM_STORE": {
+    "mtid": "Vacuum Store",
+    "aliases": ["Vacuum retail", "Vacuum sales", "Manufacturer representative", "Vacuum Store"]
+  },
+  "VARIETY_DISCOUNT_STORES": {
+    "mtid": "Variety Discount Stores",
+    "aliases": ["Discount department stores", "Retail", "Sales", "Dollar Store", "Variety Discount Stores"]
+  },
+  "VENDING_MACHINE_INSTALLATION__REPAIR": {
+    "mtid": "Vending Machine Installation & Repair",
+    "aliases": ["Vending machine installation services", "Vending machine repair services", "Vending Machine Installation & Repair"]
+  },
+  "VENDING_MACHINE_SALES": {
+    "mtid": "Vending Machine Sales",
+    "aliases": ["Automatic merchandising machine operators", "Vending Machine Sales"]
+  },
+  "VETERINARIANS_OFFICE": {
+    "mtid": "Veterinarians Office",
+    "aliases": ["Animal Hospital", "Veterinarians Office"]
+  },
+  "VIDEOGRAPHER": {
+    "mtid": "Videographer",
+    "aliases": ["videography", "Video Editor", "Videographer"]
+  },
+  "WALLPAPER_HANGING__REMOVAL": {
+    "mtid": "Wallpaper Hanging & Removal",
+    "aliases": ["Wallpaper hanging services", "Wallpaper removal services", "Wallpaper Hanging & Removal"]
+  },
+  "WEDDING_CONSULTANT": {
+    "mtid": "Wedding Consultant",
+    "aliases": ["Wedding Planner", "Wedding Consultant"]
+  },
+  "WIG_STORE": {
+    "mtid": "Wig Store",
+    "aliases": ["Hair", "Wig Store"]
+  },
+  "WINDOW_CLEANING__3_STORIES_OR_LESS_IN_HEIGHT": {
+    "mtid": "Window Cleaning - 3 stories or less in height",
+    "aliases": ["Window cleaning services", "Window Cleaning - 3 stories or less in height"]
+  },
+  "WINDOW_COVERING_STORE": {
+    "mtid": "Window Covering Store",
+    "aliases": ["Window shade and blind store", "Curtain and drapery stores", "Retail", "Sales", "Window Covering Store"]
+  },
+  "WINERY": {
+    "mtid": "Winery",
+    "aliases": ["wine tasting", "Winery"]
+  },
+  "WOOD_PRODUCTS_DISTRIBUTOR": {
+    "mtid": "Wood Products Distributor",
+    "aliases": ["lumber", "building", "construction", "wholesale", "Wood Products Distributor"]
+  },
+  "YOGA_INSTRUCTOR": {
+    "mtid": "Yoga Instructor",
+    "aliases": ["Yoga teacher", "Yoga Instructor"]
+  },
+  "YOGURT_STORE": {
+    "mtid": "Yogurt Store",
+    "aliases": ["Yoghurt Shop", "Frozen Yogurt Shop", "Fro-Yo Shop", "Yogurt Store"],
+    "products":["BOP"]
+  },
+  "LAWN_CARE_SERVICES": {
+    "mtid": "Lawn Care Services",
+    "aliases": ["Snowplowing", "Snow Removal", "Lawn Care Services"],
+    "products":["GL", "WC"]
+  },
+  "LANDSCAPE_AND_GARDENING_SERVICES": {
+    "mtid": "Landscape and Gardening Services",
+    "aliases": ["Snowplowing", "Snow Removal", "Landscape and Gardening Services"],
+    "products":["GL", "WC"]
+  }
+}

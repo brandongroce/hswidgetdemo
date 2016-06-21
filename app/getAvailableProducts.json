@@ -1,0 +1,97 @@
+{
+  "schema_version": "1.0.0",
+  "machine_name": "geico_assurestart_com",
+  "sitename": "GEICO",
+  "subdomain": "geico-test.intandem-int.com",
+  "marketing_source":"10000145",
+  "scheme": "https",
+  "valid": true,
+  "weight": 1,
+  "is_default": false,
+  "site_grant": true,
+  "aliases": [
+    {
+      "alias": "geico-test.intandem-int.com",
+      "redirect": false
+    },
+    {
+      "alias": "geico-resume-test.intandem-int.com",
+      "redirect": false
+    }
+  ],
+  "uiconfig": {
+    "quote_form": {
+      "home_toggle": true,
+      "plugin_layout_horizontal": true,
+      "plugin_secured_access": true,
+      "original_design": false
+    },
+    "widget":{
+      "display":"multiproduct"
+    },
+    "site_favicon": 347,
+    "site_logo": 345,
+    "hero_videos": [
+      "139,140",
+      "147,148"
+    ]
+  },
+  "lobs": [
+    {
+      "type": "BOP",
+      "settings": {
+        "enabled": true,
+        "gating": [
+          {
+            "states": "/CA|TX/g",
+            "canbundle":["GL", "WC"],
+            "mustbundle":["WC"]
+          },
+          {
+            "states": ["CA"],
+            "industries": ["AGRICULTURAL_CONSULTING_SERVICES", "AMUSEMENT_AND_THEME_PARKS"]
+          }
+        ]
+      }
+    },
+    {
+      "type": "GL",
+      "settings": {
+        "enabled": true,
+        "gating": [
+          {
+            "states": [
+              "AK",
+              "HI"
+            ]
+          },
+          {
+            "industries": "/ANIMAL_BREEDING|AGRICULTURAL_CONSULTING_SERVICES/g"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Commercial Auto",
+      "settings": {
+        "enabled": false,
+        "gating": []
+      }
+    }
+  ],
+  "settings": {
+    "agent_support_phone": "877-515-2185",
+    "broker_of_record": "145",
+    "business_phone": "877-515-2191",
+    "contact_partner_id": "1850",
+    "default_membership_level": "AutoDiscount",
+    "marketing_subsource": 1452,
+    "marketing_subsource_desc": "Consumer Web",
+    "partner_id": 1852,
+    "process_recommendations": true,
+    "producer_desc": "Generic Web",
+    "producer_id": 5555,
+    "promotion_code": 14520,
+    "promotion_desc": "Consumer Web"
+  }
+}

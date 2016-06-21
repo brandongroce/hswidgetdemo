@@ -1,0 +1,250 @@
+body {
+}
+.thewidget input, .thewidget md-select {
+  background-color:rgba(127,127,127,.12);
+  border-radius:1px;
+}
+.thewidget md-input-container:not(.md-input-has-value):not(.md-input-focused) label{
+  padding: 0 0 4px 10px;
+}
+
+.thewidget .md-input-has-value label, .thewidget .md-input-focused label{
+  font-size:1.2em;
+}
+
+.thewidget md-select-value span {
+  padding-bottom: 4px;
+  padding-left: 6px;
+}
+
+.thewidget input {
+  padding-left:10px;
+}
+.thewidget .card-controls {
+  min-height:36px;
+}
+.vis-hidden{
+  visibility: hidden;
+}
+
+.hero {
+  background-image:url('https://d3j29i1ubwg8ou.cloudfront.net/styles/hero-bg-mobile/s3/hero-restaurant-tickets.jpg?itok=rWHMUArW');
+  background-size:cover;
+  width: 100%;
+  color:#fafafa;
+}
+.hero .hero-content, header {
+  padding:30px;
+  max-width:960px;
+  margin:0 auto;
+}
+.thewidget {
+  width:100%;
+  background-color:rgba(0,0,0,.8);
+  color:#80d8ff;
+  font-size:.9em;
+}
+.thewidget md-tabs {
+  max-width:960px;
+  margin:0 auto;
+}
+.thewidget .tab1row2 {
+  margin-top:-10px;
+}
+.thewidget .tab-controls div {
+  text-align:right;
+}
+.thewidget md-content,.thewidget md-tab-content {
+  overflow:hidden;
+  background-color:rgba(66,66,66,.3);
+}
+md-option {
+  color:#fff;
+  background-color:rgba(0,0,0,.9) !important;
+
+}
+
+.thewidget .md-title {
+  color:#fafafa;
+}
+.thewidget p.grid-description {
+  font-size: .9em;
+  padding: 5px;
+}
+ .md-autocomplete-suggestions li {
+  background-color:rgba(0,0,0,.9);
+  color:#fff;
+}
+ .md-autocomplete-suggestions li.selected,
+ .md-autocomplete-suggestions li:hover,
+ md-option:hover, md-option[selected=selected],
+ md-select-menu md-option:focus{
+  background-color:rgba(64,64,64,.9) !important;
+  color:#fff;
+}
+
+.thewidget .highlight {
+  border:10px solid #fff;
+  padding:0 !important;
+  cursor:pointer;
+  background-color:rgba(20,133,204,0.9);
+}
+
+.thewidget md-card md-card-title md-card-title-text:only-child .md-subhead {
+  padding-top:0;
+}
+.thewidget .card-disabled {
+  /*display:none;*/
+}
+.thewidget .checkmark {
+  width: 24px;
+  border: 4px solid #fff;
+  border-radius: 5px;
+  height: 24px;
+  background-color:rgb(139,195,74);
+  text-align:center;
+  margin-right:10px;
+}
+
+.thewidget md-card .checkmark {
+  position:absolute;
+  left: -20px;
+  top: -20px;
+}
+
+.thewidget .checkmark md-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.thewidget .md-headline {
+  font-size:22px;
+}
+.thewidget md-card md-card-title {
+  padding: 5px 14px 10px;
+}
+
+.thewidget md-card md-card-content {
+  padding: 0 5px;
+  margin-top:-20px;
+  line-height:24px;
+  font-size:16px;
+}
+
+.thewidget md-card .md-actions,.thewidget md-card md-card-actions {
+  margin:3px 0 0 0;
+}
+
+ .autocomplete-custom-template li {
+  border-bottom: 1px solid #ccc;
+  height: auto;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  white-space: normal; }
+ .autocomplete-custom-template li:last-child {
+  border-bottom-width: 0; }
+ .autocomplete-custom-template .item-title,
+ .autocomplete-custom-template .item-metadata {
+  display: block;
+  line-height: 2; }
+ .autocomplete-custom-template .item-title md-icon {
+  height: 18px;
+  width: 18px; }
+
+ .thewidget md-autocomplete {
+   /*max-width:300px;*/
+ }
+.thewidget md-input-container {
+  margin: 0;
+  /*max-width:300px;*/
+}
+
+.thewidget md-switch {
+  margin-top:6px;
+}
+.thewidget .input-message {
+  width:100px;
+  font-size:.8em;
+  color:rgba(200,200,200, .8);
+  top: 5px;
+  position: relative;
+}
+.thewidget .email-input-message {
+  max-width:350px;
+  font-size:.8em;
+  color:rgba(200,200,200, .8);
+  position: relative;
+  top: 2px;
+}
+.thewidget md-card {
+  border-radius:5px;
+  border:10px solid transparent;
+  transition: border-color .25s ease;
+  position:relative;
+}
+.thewidget .card-media {
+  background-color: rgba(64,64,64,.5);
+  margin-left:5px;
+}
+.thewidget md-icon {
+  font-size:80px;
+  color:#FFF;
+  width:80px;
+  height:80px;
+}
+.thewidget md-checkbox.md-focused:not([disabled]):not(.md-checked) .md-container:before {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+.thewidget .checkbox-label {
+  border-bottom: 1px solid rgba(64,64,64,.9);
+  padding-bottom: 7px;
+  position: relative;
+  top: -1px;
+}
+.thewidget md-checkbox {
+  margin-top:8px;
+  margin-left: 8px;
+}
+.thewidget md-checkbox > div.md-container {
+  top:8px;
+}
+h3.md-title {
+  font-size:28px;
+  font-weight:bold;
+}
+
+.thewidget .md-subtitle {
+  margin: 0 0 5px 10px;
+  color: #aaa;
+}
+
+.thewidget .product-message {
+  margin-top:5px;
+  margin-bottom:0;
+  margin-left:10px;
+}
+
+.thewidget .exclaim {
+  font-size: 24px;
+  padding-bottom: 5px;
+  position: relative;
+  top: -2px;
+}
+.thewidget md-toast.md-default-theme .md-toast-content, .thewidget md-toast .md-toast-content {
+  border: 2px solid #fff;
+  color:#ffff00;
+  background-color: rgba(32,32,32,.95);
+}
+.animate-if.ng-enter, .animate-if.ng-leave {
+  transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.25s;
+}
+
+.animate-if.ng-enter,
+.animate-if.ng-leave.ng-leave-active {
+  opacity:0;
+}
+
+.animate-if.ng-leave,
+.animate-if.ng-enter.ng-enter-active {
+  opacity:1;
+}

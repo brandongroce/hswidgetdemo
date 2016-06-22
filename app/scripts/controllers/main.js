@@ -106,7 +106,7 @@ angular
    * @param email
      */
   $scope.checkEmailExists = function(email){
-    if(email.length === 0)return;
+    if(!email)return;
     var emails = [
       "dustin.hubbard@homesite.com",
       "brandon@brandongroce.com",

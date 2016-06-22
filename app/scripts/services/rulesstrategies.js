@@ -168,6 +168,31 @@ angular.module('widgetdemoApp')
       }
     };
 
+      /**
+       * This is a hard rule where states that don't require
+       * bundling for WC will require an existing account/policy
+       * to purchase WC.
+       * @param lobs
+       * @param lob
+       * @param rules
+       * @param state
+       * @param industry
+       * @param hasAccount
+       */
+    strategies.monolineRequiresAccountForStates = function(lob, rules, state, industry, hasAccount){
+      console.log("lob", lob);
+      console.log("rules", rules);
+      console.log("state", state);
+      console.log("industry", industry);
+      console.log("hasAccount", hasAccount);
+
+      if(rules.value === 'all')rules.value = $config.getStates();
+      if(rules.op == '=')
+        lob.enabled = !(rules.value.indexOf(state) !== -1 && !hasAccount);
+      else
+        lob.enabled = !(rules.value.indexOf(state) === -1 && !hasAccount);
+    };
+
 
     return strategies;
   }]);

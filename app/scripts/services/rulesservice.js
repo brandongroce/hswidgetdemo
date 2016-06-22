@@ -92,23 +92,12 @@ angular.module('widgetdemoApp')
       };
     };
 
-    this.makeRows = function(numInRow, lobData){
-      lobData.lobLoop = [];
-      var count = 1;
-      var holderObject = {};
-      for(var key in lobData.enabled){
-        holderObject[key] = lobData.enabled[key];
-        if(count % numInRow == 0){
-          lobData.lobLoop.push(angular.copy(holderObject));
-          holderObject = {};
-        }
-        count++;
-      }
-      if(count % numInRow != 1){
-        lobData.lobLoop.push(holderObject);
-      }
-    };
-
+    /**
+     * If a business does not have any employees, 
+     * Worker's Comp is not a viable option
+     * @param hasEmployees
+     * @param lobData
+       */
     this.applyEmployeeRules = function(hasEmployees, lobData){
       if(!hasEmployees){
         lobData.available.forEach(function(lob){
@@ -125,7 +114,7 @@ angular.module('widgetdemoApp')
      * @param industry
      * @returns {{available: Array, bundles: *, enabled: {}, dnq: boolean}}
        */
-    this.runLobRules = function(config, state, industry){
+    this.runLobRules = function(config, state, industry, hasAccount){
       var products = industry.products;
       industry = industry.id;
       // Cache this in real life
@@ -160,7 +149,7 @@ angular.module('widgetdemoApp')
         var strategy;
         for(var j=0; j < rulesCount; j++){
           strategy = lobConfig.settings.rules[j].function;
-          $strategies[strategy](lob, lobConfig.settings.rules[j], state, industry);
+          $strategies[strategy](lob, lobConfig.settings.rules[j], state, industry, hasAccount);
           if(!lob.enabled)break;
         }
         availableLobs.push(lob);

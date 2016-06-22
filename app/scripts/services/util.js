@@ -33,6 +33,23 @@ angular.module('widgetdemoApp')
         return diff;
       };
 
+    var makeRows = function(numInRow, lobData){
+      lobData.lobLoop = [];
+      var count = 1;
+      var holderObject = {};
+      for(var key in lobData.enabled){
+        holderObject[key] = lobData.enabled[key];
+        if(count % numInRow == 0){
+          lobData.lobLoop.push(angular.copy(holderObject));
+          holderObject = {};
+        }
+        count++;
+      }
+      if(count % numInRow != 1){
+        lobData.lobLoop.push(holderObject);
+      }
+    };
+
 
       var k_combinations = function(set, k) {
         var i, j, combs, head, tailcombs;
@@ -90,6 +107,7 @@ angular.module('widgetdemoApp')
     return {
       arrayDiff:arr_diff,
       combinations:combinations,
-      k_combinations:k_combinations
+      k_combinations:k_combinations,
+      makeRows:makeRows
     };
   });

@@ -9,7 +9,7 @@
  */
 angular
   .module('widgetdemoApp')
-  .controller('MainCtrl', function ($scope, $mdToast, $location, postalService, configFactory, rulesService, $timeout, $q) {
+  .controller('MainCtrl', function ($scope, $mdToast, util, $location, postalService, configFactory, rulesService, $timeout, $q) {
 
 
   configFactory.getPartnerConfig('geico')
@@ -66,6 +66,8 @@ angular
   };
 
   $scope.$watch("selectedIndustry", function() {
+    $scope.showEmployees = false;
+    $scope.showLocation = false;
     if($scope.selectedIndustry === null)return;
     console.log("checking requirements ", $scope.selectedIndustry);
     if($scope.selectedIndustry.hasOwnProperty("products")){
@@ -97,6 +99,21 @@ angular
         });
     }
   };
+
+  $scope.hasAccount = false;
+  /**
+   * Stub for checking if emails exist aka existing eaccount
+   * @param email
+     */
+  $scope.checkEmailExists = function(email){
+    if(email.length === 0)return;
+    var emails = [
+      "dustin.hubbard@homesite.com",
+      "brandon@brandongroce.com",
+      "brandon.groce@homesite.com"
+    ];
+    $scope.hasAccount = emails.indexOf(email.toLowerCase()) !== -1
+  };
   /**
    * Sets the form for # of employees if checked and after $touched with value
    */
@@ -124,18 +141,23 @@ angular
    * Tab Navigation
      */
   $scope.nextTab = function () {
+    console.log($scope.widgetForm);
+    console.log($scope.email);
     if(!$scope.widgetForm.$valid){
-      console.log($scope.widgetForm);
       // $scope.widgetForm.$setSubmitted();
       $scope.widgetForm.autocompleteField.$setTouched();
       $scope.widgetForm.zipcode.$setTouched();
       return;
     }
+    $scope.checkEmailExists($scope.email);
     $scope.loading = true;
+    $scope.selectedLobs = {};
+    $scope.lobSelectOrder = [];
+    $scope.lastSelected = null;
     $timeout(function(){
-      $scope.lobData = rulesService.runLobRules($scope.config, $scope.address.state, $scope.selectedIndustry);
+      $scope.lobData = rulesService.runLobRules($scope.config, $scope.address.state, $scope.selectedIndustry, $scope.hasAccount);
       rulesService.applyEmployeeRules($scope.hasEmployees, $scope.lobData);
-      rulesService.makeRows(3, $scope.lobData);
+      util.makeRows(3, $scope.lobData);
     }, 1000).then(function(){
       if ($scope.lobData.dnq) {
         $scope.dnq = true;

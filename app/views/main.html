@@ -87,7 +87,7 @@
             <md-card ng-repeat="(lob, enabled) in obj"
                      style="width:330px"
                      class="{{lob}}"
-                     ng-style="{true: {background: 'rgba(20,133,204,0.6)'}, false: {background:'#333'}}[enabled]"
+                     ng-style="{true: {background: 'rgba(20,133,204,0.6)'}}[enabled]"
                      ng-class="enabled ? 'card-enabled': 'card-disabled'">
               <div class="checkmark animate-if" ng-if="selectedLobs[lob] && bundleNotMet !== true"><md-icon md-svg-src="images/check.svg"></md-icon></div>
               <div class="checkmark animate-if" style="background-color:#FFCC00" ng-if="selectedLobs[lob] && bundleNotMet === true"><span class="exclaim">!</span></div>
@@ -117,7 +117,7 @@
         <md-button class="md-raised md-primary" ng-click="prevTab()" ng-if="selectedIndex > 0">
           Back
         </md-button>
-        <span ng-if="loading" style="float:right;margin-right:35px"><md-progress-circular "md-mode="indeterminate"></md-progress-circular></span>
+        <span ng-if="loading" style="float:right;margin-right:35px"><md-progress-circular md-mode="indeterminate"></md-progress-circular></span>
         <md-button class="md-raised md-primary" ng-click="nextTab()" style="margin-right:20px;" ng-if="selectedIndex < 3 && !loading">
           Next
       </md-button>

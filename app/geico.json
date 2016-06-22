@@ -9,7 +9,7 @@
   "weight": 1,
   "isDefault": false,
   "siteGrant": true,
-  "crossSell":false,
+  "crossSell":true,
   "aliases": [
     {
       "alias": "geico-test.intandem-int.com",
@@ -89,22 +89,12 @@
             "function": "requireBundlingLobs",
             "value": [
               [
-                "GL"
+                "WC"
               ]
             ],
             "where": "industries",
             "equal": [
               "BED_AND_MATTRESS_STORE"
-            ]
-          },
-          {
-            "function": "denyBundlingLobs",
-            "value": "all",
-            "where": "states",
-            "equal": [
-              "TX",
-              "NY",
-              "FL"
             ]
           }
         ]
@@ -131,18 +121,7 @@
             ]
           }
         ],
-        "bundlingRules":[
-          {
-            "function": "denyBundlingLobs",
-            "value": "all",
-            "where": "states",
-            "equal": [
-              "TX",
-              "NY",
-              "FL"
-            ]
-          }
-        ]
+        "bundlingRules":[]
       }
     },
     {
@@ -156,6 +135,15 @@
             "value": [
               "FL"
             ]
+          },
+          {
+            "function": "monolineRequiresAccountForStates",
+            "op":"=",
+            "value":[
+              "TX",
+              "NY",
+              "AZ"
+            ]
           }
         ],
         "bundlingRules":[
@@ -167,17 +155,6 @@
             ],
             "where": "states",
             "not": [
-              "TX",
-              "NY",
-              "FL",
-              "AZ"
-            ]
-          },
-          {
-            "function": "denyBundlingLobs",
-            "value": "all",
-            "where": "states",
-            "equal": [
               "TX",
               "NY",
               "FL",

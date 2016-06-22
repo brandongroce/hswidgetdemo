@@ -94,7 +94,19 @@ md-option {
   padding-top:0;
 }
 .thewidget .card-disabled {
+  background: repeating-linear-gradient(
+    135deg,
+    rgba(48,48,48,.8),
+    rgba(48,48,48,.8) 30px,
+    rgba(64,64,64,.6) 30px,
+    rgba(64,64,64,.6) 60px
+  );
+  color:#777777;
+  border:none;
   /*display:none;*/
+}
+.thewidget .card-disabled > md-icon {
+  opacity:.3;
 }
 .thewidget .checkmark {
   width: 24px;
@@ -174,6 +186,7 @@ md-option {
   font-size:.8em;
   color:rgba(200,200,200, .8);
   position: relative;
+  height:1px;
   top: 2px;
 }
 .thewidget md-card {
@@ -211,6 +224,7 @@ md-option {
 h3.md-title {
   font-size:28px;
   font-weight:bold;
+  margin-top:0px;
 }
 
 .thewidget .md-subtitle {
